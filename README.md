@@ -38,3 +38,7 @@ For future AI agents and project automation, start with:
 - `catalog/assets.json` and `catalog/discovery_sources.csv` — provenance and catalogue metadata
 
 **Rule:** external source URLs are provenance only. When a stored release asset exists, AI agents should use the repository-owned copy instead of the external source.
+
+## Workplace artwork collection (unverified)
+
+The [workplace artwork audit](catalog/workplace-art-unverified-2026-10-05/README.md) indexes 102,393 files from four user-supplied archives. It is separate from the approved catalogue above. Sources and redistribution licences are unverified. Use its `index.html` search viewer to filter original filenames/categories, format and technical readiness. The [archive manifest](catalog/workplace-art-unverified-2026-10-05/archive-manifest.json) records exact stored-versus-local status and checksums.
