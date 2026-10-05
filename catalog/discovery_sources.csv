@@ -8,3 +8,12 @@ fps-asset-kit,FPS Asset Kit,https://github.com/petroulacl/fps-asset-kit,CC0-1.0,
 poly-haven,Poly Haven,https://polyhaven.com,CC0-1.0,"3D models;PBR textures;HDRIs;background lighting",catalog-and-selective-download,true
 itch-cc0,itch.io CC0 game assets,https://itch.io/game-assets/assets-cc0,CC0-1.0,"characters;3D;2D;backgrounds;tilesets;UI;icons;textures;audio",catalog-crawl-per-pack,true
 kenney-free,Kenney free assets,https://kenney.nl/assets,CC0-1.0,"2D;3D;characters;buildings;environments;UI;audio;fonts",catalog-and-selective-download,true
+papyszoo-cc0-sprites,CC0 Public Domain Sprites,https://github.com/Papyszoo/CC0-Public-Domain-Sprites,CC0-1.0,"2D characters;creatures;tilesets;environments;items;icons;UI;effects;backgrounds",release-mirror,true
+oga-3d-character-pack,OpenGameArt 3D Character Pack,https://opengameart.org/content/3d-character-pack,CC0-1.0,"3D characters;male;female;rigged;animated;humanoid;NPC;Blender",release-direct,true
+kaykit-city-builder,KayKit City Builder Bits,https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0,CC0-1.0,"3D;city;buildings;urban;simulation;RTS;GLTF;FBX;OBJ",release-mirror,true
+kaykit-dungeon-remastered,KayKit Dungeon Remastered,https://github.com/KayKit-Game-Assets/KayKit-Dungeon-Remastered-1.0,CC0-1.0,"3D;dungeon;walls;floors;stairs;doors;props;interior",release-mirror,true
+kaykit-furniture,KayKit Furniture Bits,https://github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0,CC0-1.0,"3D;furniture;rooms;interiors;life-sim;props",release-mirror,true
+kaykit-halloween,KayKit Halloween Bits,https://github.com/KayKit-Game-Assets/KayKit-Halloween-Bits-1.0,CC0-1.0,"3D;graveyard;cemetery;seasonal;props;spooky",release-mirror,true
+kaykit-medieval-hexagon,KayKit Medieval Hexagon Pack,https://github.com/KayKit-Game-Assets/KayKit-Medieval-Hexagon-Pack-1.0,CC0-1.0,"3D;medieval;hex;buildings;roads;rivers;nature;RTS",release-mirror,true
+kaykit-prototype-bits,KayKit Prototype Bits,https://github.com/KayKit-Game-Assets/KayKit-Prototype-Bits-1.0,CC0-1.0,"3D;prototype;blocks;greybox;level-design",release-mirror,true
+tmhs-free-game-dev-assets,Free Game Dev Assets verified catalogue,https://github.com/TMHSDigital/Free-Game-Dev-Assets,MIXED-OPEN,"catalog;3D;2D;UI;textures;HDRI;audio;tools",catalog-reference,true
