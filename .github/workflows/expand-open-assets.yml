@@ -1,0 +1,71 @@
+name: Expand open game asset library
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/expand-open-assets.yml"
+      - "catalog/discovery_sources.csv"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: expand-open-assets
+  cancel-in-progress: false
+
+jobs:
+  mirror-open-collections:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y zip git-lfs
+          mkdir -p staging release-assets
+      - name: Mirror verified GitHub collections
+        shell: bash
+        run: |
+          set +e
+          : > release-assets/expansion-status.txt
+          mirror () {
+            slug="$1"; url="$2"
+            echo "== $slug =="
+            rm -rf "staging/$slug"
+            git clone --depth 1 "$url" "staging/$slug"
+            code=$?
+            if [ $code -ne 0 ]; then
+              echo "FAILED,$slug,$url,git_clone_exit_$code" >> release-assets/expansion-status.txt
+              return
+            fi
+            (cd "staging/$slug" && git lfs install >/dev/null 2>&1 && git lfs pull) || true
+            rm -rf "staging/$slug/.git"
+            (cd staging && zip -9 -r "../release-assets/$slug.zip" "$slug")
+            if [ $? -eq 0 ]; then
+              echo "MIRRORED,$slug,$url" >> release-assets/expansion-status.txt
+            else
+              echo "FAILED,$slug,$url,zip_failed" >> release-assets/expansion-status.txt
+            fi
+          }
+          mirror tiddybub-2d-assets https://github.com/Tiddybub/2d-assets.git
+          mirror cc0tree https://github.com/SkywolfGameStudios/CC0Tree.git
+          mirror holokat-game-assets https://github.com/holokat/game-assets.git
+          mirror shorepine-kenney https://github.com/shorepine/kenney.git
+          mirror fps-buildings-env-kit https://github.com/petroulacl/fps-buildings-env-kit.git
+          mirror fps-asset-kit https://github.com/petroulacl/fps-asset-kit.git
+      - name: Checksums
+        run: sha256sum release-assets/*.zip > release-assets/EXPANSION_SHA256SUMS.txt || true
+      - name: Publish expansion release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          TAG="mega-assets-expansion-v1"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" release-assets/* --clobber
+          else
+            gh release create "$TAG" release-assets/* --title "Image Mega Asset Expansion v1" --notes "Verified open game-asset collections mirrored for reuse. Review bundled licences before redistribution outside your projects."
+          fi
