@@ -20,7 +20,8 @@
     "pending_copy": 3,
     "reference_only_asset_packs": 5,
     "reference_only_discovery_sources": 3,
-    "reference_only_external_catalogs": 1
+    "reference_only_external_catalogs": 1,
+    "stored_metadata_bundles": 1
   },
   "items": [
     {
@@ -1033,6 +1034,32 @@
         "tools"
       ],
       "notes": "External catalogue of open game-development resources; not itself an asset pack."
+    },
+    {
+      "id": "image-mega-repo-metadata",
+      "name": "Image Mega Repo Metadata Bundle",
+      "record_type": "metadata_bundle",
+      "availability": "stored",
+      "stored_copy": true,
+      "release_tag": "mega-assets-v1",
+      "release_asset": "image-mega-repo-metadata.zip",
+      "release_url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/image-mega-repo-metadata.zip",
+      "size_bytes": 8894,
+      "license": "repository metadata / per-file terms",
+      "source_url": "https://github.com/atiffhussainkhan/Image",
+      "categories": [
+        "metadata",
+        "catalog",
+        "licensing",
+        "provenance"
+      ],
+      "search_terms": [
+        "metadata",
+        "catalog",
+        "licensing",
+        "provenance",
+        "image mega repo metadata"
+      ]
     }
   ]
 }
