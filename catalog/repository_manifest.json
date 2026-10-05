@@ -1,0 +1,48 @@
+{
+  "repository": "atiffhussainkhan/Image",
+  "purpose": "Master reusable game asset library optimized for human and AI discovery",
+  "releases": {
+    "core": {
+      "tag": "mega-assets-v1",
+      "url": "https://github.com/atiffhussainkhan/Image/releases/tag/mega-assets-v1"
+    },
+    "expansion_v1": {
+      "tag": "mega-assets-expansion-v1",
+      "url": "https://github.com/atiffhussainkhan/Image/releases/tag/mega-assets-expansion-v1"
+    },
+    "expansion_v2": {
+      "tag": "mega-assets-expansion-v2",
+      "url": "https://github.com/atiffhussainkhan/Image/releases/tag/mega-assets-expansion-v2"
+    }
+  },
+  "policy": {
+    "asset_location": "Use stored release assets, not external source links, whenever a stored copy exists.",
+    "provenance": "Keep original source and licence metadata.",
+    "discovery": "Search by tags, category, format, theme and gameplay role."
+  },
+  "categories": [
+    "3D characters",
+    "2D characters",
+    "animations",
+    "buildings",
+    "houses",
+    "city",
+    "dungeons",
+    "interiors",
+    "furniture",
+    "props",
+    "backgrounds",
+    "sprites",
+    "UI",
+    "VFX",
+    "textures",
+    "PBR",
+    "HDRI",
+    "audio",
+    "environment",
+    "vegetation",
+    "medieval",
+    "FPS",
+    "prototype"
+  ]
+}
