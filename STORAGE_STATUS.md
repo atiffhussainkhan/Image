@@ -22,3 +22,7 @@ These must not be treated as locally available until a release asset exists.
 - `stored` = safe to locate inside this repository's Releases.
 - `unresolved_catalogued` = metadata/provenance only; do not claim the asset itself is present.
 - Never use an external source URL as a substitute for a stored pack when the task requires repository-owned assets.
+
+## User-supplied artwork
+
+Four original artwork archives (102,393 indexed files) are stored in the [workplace artwork release](https://github.com/atiffhussainkhan/Image/releases/tag/workplace-art-unverified-2026-10-05). See `catalog/workplace-art-unverified-2026-10-05/archive-manifest.json` for verified checksums and downloads, and its README for game-art suitability. Their licences remain unverified; they are separate from the approved reusable packs.

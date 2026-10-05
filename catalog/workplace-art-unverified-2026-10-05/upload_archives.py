@@ -25,7 +25,7 @@ except RuntimeError as e:
  gh('release','create',TAG,'--repo',REPO,'--draft','--title','Workplace artwork — unverified licences — 2026-10-05','--notes-file',str(a.audit/'README.md'))
 for f in files:
  print('Uploading',f.name,flush=True);gh('release','upload',TAG,str(f),'--repo',REPO,'--clobber')
-release=json.loads(gh('api','repos/'+REPO+'/releases/tags/'+TAG));remote={x['name']:x for x in release['assets']}
+release=next(x for x in json.loads(gh('api','repos/'+REPO+'/releases')) if x['tag_name']==TAG);remote={x['name']:x for x in release['assets']}
 for f in files:
  if f.name not in remote or remote[f.name]['size']!=f.stat().st_size:raise RuntimeError('Remote size verification failed: '+f.name)
 for item in manifest:
