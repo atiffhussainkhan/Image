@@ -1,0 +1,204 @@
+name: Build reusable game asset library
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/build-asset-library.yml"
+      - "catalog/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-asset-library
+  cancel-in-progress: false
+
+jobs:
+  package-assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full jq unzip rsync
+          python -m pip install --upgrade gdown
+          mkdir -p staging/packs staging/logs release-assets
+
+      - name: Download direct OpenGameArt packs
+        shell: bash
+        run: |
+          set +e
+          fetch () {
+            name="$1"; url="$2"; out="$3"
+            echo "Fetching $name"
+            curl -fL --retry 4 --retry-delay 3 -A "Mozilla/5.0" "$url" -o "$out"
+            code=$?
+            if [ $code -ne 0 ]; then
+              echo "$name | $url | curl exit $code" >> staging/logs/failed_sources.txt
+              rm -f "$out"
+            fi
+          }
+          fetch "Knight Princess and Dragon 2"             "https://opengameart.org/sites/default/files/knightprincessanddragon2.zip"             "release-assets/opengameart-knight-princess-dragon-2.zip"
+          fetch "KayKit Character Animations 1.2"             "https://opengameart.org/sites/default/files/kaykit_character_animations_1.2.zip"             "release-assets/kaykit-character-animations-1.2.zip"
+
+      - name: Download Quaternius Ultimate Animated Character Pack
+        shell: bash
+        run: |
+          set +e
+          mkdir -p staging/packs/quaternius-ultimate-animated-character
+          gdown --folder             "https://drive.google.com/drive/folders/1sNi1AfenfPRrvRt5yfaj5QMMd6KKcUJ5?usp=sharing"             -O staging/packs/quaternius-ultimate-animated-character
+          code=$?
+          if [ $code -eq 0 ]; then
+            (cd staging/packs && zip -9 -r ../../release-assets/quaternius-ultimate-animated-character.zip quaternius-ultimate-animated-character)
+          else
+            echo "Quaternius Ultimate Animated Character Pack | Google Drive folder | gdown exit $code" >> staging/logs/failed_sources.txt
+          fi
+
+      - name: Mirror GitHub-hosted KayKit packs
+        shell: bash
+        run: |
+          set +e
+          mirror () {
+            slug="$1"; url="$2"
+            dest="staging/packs/$slug"
+            git clone --depth 1 "$url" "$dest"
+            code=$?
+            if [ $code -eq 0 ]; then
+              rm -rf "$dest/.git"
+              (cd staging/packs && zip -9 -r "../../release-assets/$slug.zip" "$slug")
+            else
+              echo "$slug | $url | git clone exit $code" >> staging/logs/failed_sources.txt
+              rm -rf "$dest"
+            fi
+          }
+          mirror "kaykit-adventurers" "https://github.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0.git"
+          mirror "kaykit-skeletons" "https://github.com/KayKit-Game-Assets/KayKit-Character-Pack-Skeletons-1.0.git"
+
+      - name: Mirror Jam-Ready collection
+        shell: bash
+        run: |
+          set +e
+          git clone --depth 1 https://github.com/series-ai/jam-ready-assets.git staging/packs/jam-ready-assets
+          code=$?
+          if [ $code -eq 0 ]; then
+            cd staging/packs/jam-ready-assets
+            git lfs install
+            git lfs pull
+            rm -rf .git
+            cd ../../..
+            (cd staging/packs && zip -9 -r ../../release-assets/jam-ready-assets.zip jam-ready-assets)
+          else
+            echo "series-ai jam-ready-assets | GitHub | clone exit $code" >> staging/logs/failed_sources.txt
+          fi
+
+      - name: Attempt public-page archive retrieval for remaining catalogued packs
+        shell: bash
+        run: |
+          set +e
+          cat > staging/remaining_sources.tsv <<'EOF'
+          quaternius-ultimate-animated-animals	https://quaternius.com/packs/ultimateanimatedanimals.html
+          quaternius-animated-mech	https://quaternius.com/packs/animatedmech.html
+          kaykit-dungeon	https://kaylousberg.itch.io/kaykit-dungeon-pack
+          avramania-nature-terrain	https://avramania.itch.io/nature-terrain
+          mastjie-household-goods	https://mastjie.itch.io/low-poly-household-goods
+          barnabe-wild-rigged-character	https://barnabe-wild.itch.io/low-poly-rigged-character
+          jean-charpentier-lowpoly	https://jeancharpentier.itch.io/cc0-lowpoly-pack
+          opengameart-modular-vector-characters	https://opengameart.org/content/free-cc0-modular-animated-vector-characters-2d
+          EOF
+
+          while IFS=$'\t' read -r slug page; do
+            mkdir -p "staging/packs/$slug"
+            curl -fL --retry 3 -A "Mozilla/5.0" "$page" -o "staging/packs/$slug/SOURCE_PAGE.html"
+            if [ $? -ne 0 ]; then
+              echo "$slug | $page | source page unavailable" >> staging/logs/failed_sources.txt
+              continue
+            fi
+
+            python - "$slug" "$page" <<'PY'
+import pathlib, re, sys, html, urllib.parse, urllib.request
+slug, page = sys.argv[1], sys.argv[2]
+root = pathlib.Path("staging/packs") / slug
+txt = (root / "SOURCE_PAGE.html").read_text(errors="ignore")
+hrefs = [html.unescape(x) for x in re.findall(r'href=["\']([^"\']+)["\']', txt, flags=re.I)]
+candidates=[]
+for h in hrefs:
+    u=urllib.parse.urljoin(page,h)
+    lu=u.lower().split("?")[0]
+    if any(lu.endswith(ext) for ext in (".zip",".7z",".rar",".tar.gz",".tgz")):
+        candidates.append(u)
+seen=set()
+for i,u in enumerate(candidates,1):
+    if u in seen: continue
+    seen.add(u)
+    out=root/f"download-{i}{pathlib.Path(urllib.parse.urlparse(u).path).suffix or '.bin'}"
+    try:
+        req=urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"})
+        with urllib.request.urlopen(req,timeout=60) as r, open(out,"wb") as f:
+            f.write(r.read())
+        if out.stat().st_size < 1024:
+            out.unlink(missing_ok=True)
+    except Exception:
+        out.unlink(missing_ok=True)
+PY
+            files=$(find "staging/packs/$slug" -type f ! -name SOURCE_PAGE.html | wc -l)
+            if [ "$files" -gt 0 ]; then
+              (cd staging/packs && zip -9 -r "../../release-assets/$slug.zip" "$slug")
+            else
+              echo "$slug | $page | no directly downloadable archive discovered" >> staging/logs/failed_sources.txt
+            fi
+          done < staging/remaining_sources.tsv
+
+      - name: Add provenance bundle and checksums
+        run: |
+          mkdir -p staging/project-metadata
+          cp -r catalog docs README.md staging/project-metadata/
+          zip -9 -r release-assets/image-mega-repo-metadata.zip staging/project-metadata
+          test -f staging/logs/failed_sources.txt || echo "No failures recorded." > staging/logs/failed_sources.txt
+          cp staging/logs/failed_sources.txt release-assets/failed-sources.txt
+          sha256sum release-assets/* > release-assets/SHA256SUMS.txt
+          ls -lah release-assets
+
+      - name: Publish reusable asset release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -e
+          TAG="mega-assets-v1"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" release-assets/* --clobber
+          else
+            gh release create "$TAG" release-assets/*               --title "Image Mega Asset Library v1"               --notes "Reusable game-development asset bundles. Each third-party asset retains its original licence. See catalog/ and docs/ before reuse."
+          fi
+
+      - name: Record release location
+        run: |
+          cat > ASSET_LIBRARY.md <<EOF
+          # Reusable Asset Library
+
+          Binary asset packs are stored as owned copies in the GitHub Release:
+
+          https://github.com/${{ github.repository }}/releases/tag/mega-assets-v1
+
+          The repository itself contains the catalogue, provenance, licensing records and retrieval/build logic.
+
+          Check the release file `failed-sources.txt` for any host that blocked automated retrieval.
+          EOF
+
+      - name: Commit build status file
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ASSET_LIBRARY.md
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Record reusable asset library release"
+          git push
