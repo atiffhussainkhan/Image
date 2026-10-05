@@ -1,0 +1,69 @@
+# AI Asset Index
+
+This repository is the master reusable game-asset library.
+
+## How AI models should use this repository
+1. Search this file first by **asset type**, **theme**, **format**, or **gameplay role**.
+2. Prefer packs marked **STORED**. These are owned copies in this repository's GitHub Releases.
+3. Use source URLs only for provenance/licence verification, never as the primary asset location.
+4. Before reusing an asset outside a game project, check the bundled licence in the pack.
+5. For engine import, prefer GLB/glTF where available, then FBX, then OBJ for static meshes.
+
+## Release locations
+- Core library: https://github.com/atiffhussainkhan/Image/releases/tag/mega-assets-v1
+- Expansion v1: https://github.com/atiffhussainkhan/Image/releases/tag/mega-assets-expansion-v1
+- Expansion v2: https://github.com/atiffhussainkhan/Image/releases/tag/mega-assets-expansion-v2
+
+## Searchable asset map
+
+| Keywords / use | Stored pack | Release | Notes |
+|---|---|---|---|
+| 3D character, humanoid, NPC, player, male, female, rigged, animated | oga-3d-character-pack.zip | expansion-v2 | CC0 3D character pack |
+| 3D adventurer, RPG, hero, humanoid, animations | kaykit-adventurers.zip | core | Rigged animated characters |
+| skeleton, enemy, undead, dungeon enemy, rigged | kaykit-skeletons.zip | core | Animated skeleton characters |
+| animation, humanoid animation, walk, run, attack, jump | kaykit-character-animations-1.2.zip | core | Character animation library |
+| sprite, 2D character, creature, tile, UI, effect, background | papyszoo-cc0-sprites.zip | expansion-v2 | Large public-domain 2D collection |
+| 2D character, sprite, fantasy, sci-fi, urban, nature, UI, vehicle | tiddybub-2d-assets.zip | expansion-v1 | Very large CC0 2D library |
+| modular 2D character, vector, animated sprite | opengameart-modular-vector-characters.zip | core | Modular animated vector characters |
+| knight, princess, dragon, 2D animation, PNG | opengameart-knight-princess-dragon-2.zip | core | Transparent PNG animation sequences |
+| city, building, house, urban, simulation, RTS | kaykit-city-builder.zip | expansion-v2 | City-building 3D pack |
+| building, exterior, vegetation, skybox, urban, military, PBR | fps-buildings-env-kit.zip | expansion-v1 | Large environment/building collection |
+| dungeon, interior, wall, floor, stair, door, prop | kaykit-dungeon-remastered.zip | expansion-v2 | Modular dungeon kit |
+| furniture, room, interior, home, prop | kaykit-furniture.zip | expansion-v2 | Interior furniture kit |
+| medieval, hex, village, road, river, nature, strategy | kaykit-medieval-hexagon.zip | expansion-v2 | Hex-based medieval environment |
+| graveyard, cemetery, spooky, Halloween, prop | kaykit-halloween.zip | expansion-v2 | Seasonal/graveyard assets |
+| prototype, greybox, blockout, level design | kaykit-prototype-bits.zip | expansion-v2 | Rapid level prototyping |
+| tree, foliage, environment, world building, low poly | cc0tree.zip | expansion-v1 | CC0 tree/environment pack |
+| 3D characters, equipment, farm, building, infrastructure, creature, VFX | holokat-game-assets.zip | expansion-v1 | Mixed open game assets |
+| 2D sprite, UI, icon, 3D static model, Kenney | shorepine-kenney.zip | expansion-v1 | Organized Kenney CC0 mirror |
+| weapon, FPS, texture, PBR, SFX, HDRI | fps-asset-kit.zip | expansion-v1 | Large FPS asset pack |
+| game-dev catalogue, 2D, 3D, UI, textures, HDRI, audio | verified-source-catalog.zip | expansion-v2 | Reference catalogue, not a substitute for stored binary packs |
+
+## File naming convention
+Pack names are intentionally descriptive and stable. AI agents should select the smallest relevant pack rather than unpacking the entire library.
+
+## Recommended project layout
+```
+GameProject/
+  Assets/
+    Characters/
+    Environments/
+    Buildings/
+    Interiors/
+    Props/
+    Backgrounds/
+    UI/
+    VFX/
+    Textures/
+    Audio/
+    ThirdPartyLicences/
+```
+
+## Engine guidance
+**Unity:** FBX or GLB/glTF -> Assets/; use Humanoid rig where appropriate.
+**Unreal Engine:** FBX -> Skeletal Mesh / Static Mesh; preserve skeleton and animation files.
+**Godot:** GLB/glTF preferred; import scenes and AnimationPlayer/AnimationTree content.
+**Web/Three.js:** GLB/glTF preferred; PNG/WebP for 2D and backgrounds.
+
+## Licence rule
+The repository stores reusable copies where redistribution is permitted. Original source URLs remain only as provenance. Do not remove bundled LICENSE/README files from third-party packs.
