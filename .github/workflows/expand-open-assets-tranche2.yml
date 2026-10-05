@@ -1,0 +1,138 @@
+name: Expand open game asset library tranche 2
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/expand-open-assets-tranche2.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: expand-open-assets-tranche2
+  cancel-in-progress: false
+
+jobs:
+  mirror-tranche2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y zip git-lfs
+          mkdir -p staging release-assets
+          : > release-assets/tranche2-status.txt
+
+      - name: Mirror verified GitHub asset packs
+        shell: bash
+        run: |
+          set +e
+          mirror () {
+            slug="$1"
+            url="$2"
+            echo "== $slug =="
+            rm -rf "staging/$slug"
+            git clone --depth 1 "$url" "staging/$slug"
+            code=$?
+            if [ $code -ne 0 ]; then
+              echo "FAILED,$slug,$url,git_clone_exit_$code" >> release-assets/tranche2-status.txt
+              return
+            fi
+            (cd "staging/$slug" && git lfs install >/dev/null 2>&1 && git lfs pull) || true
+            rm -rf "staging/$slug/.git"
+            (cd staging && zip -9 -r "../release-assets/$slug.zip" "$slug")
+            if [ $? -eq 0 ]; then
+              echo "MIRRORED,$slug,$url" >> release-assets/tranche2-status.txt
+            else
+              echo "FAILED,$slug,$url,zip_failed" >> release-assets/tranche2-status.txt
+            fi
+          }
+
+          mirror papyszoo-cc0-sprites https://github.com/Papyszoo/CC0-Public-Domain-Sprites.git
+          mirror kaykit-city-builder https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0.git
+          mirror kaykit-dungeon-remastered https://github.com/KayKit-Game-Assets/KayKit-Dungeon-Remastered-1.0.git
+          mirror kaykit-furniture https://github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0.git
+          mirror kaykit-halloween https://github.com/KayKit-Game-Assets/KayKit-Halloween-Bits-1.0.git
+          mirror kaykit-medieval-hexagon https://github.com/KayKit-Game-Assets/KayKit-Medieval-Hexagon-Pack-1.0.git
+          mirror kaykit-prototype-bits https://github.com/KayKit-Game-Assets/KayKit-Prototype-Bits-1.0.git
+          mirror verified-source-catalog https://github.com/TMHSDigital/Free-Game-Dev-Assets.git
+
+      - name: Fetch OpenGameArt CC0 3D Character Pack
+        shell: bash
+        run: |
+          set +e
+          python - <<'PY'
+import html, pathlib, re, urllib.parse, urllib.request, zipfile
+
+page = "https://opengameart.org/content/3d-character-pack"
+outdir = pathlib.Path("staging/oga-3d-character-pack")
+outdir.mkdir(parents=True, exist_ok=True)
+status = pathlib.Path("release-assets/tranche2-status.txt")
+
+def log(msg):
+    with status.open("a", encoding="utf-8") as f:
+        f.write(msg + "\n")
+
+try:
+    req = urllib.request.Request(page, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        body = r.read().decode("utf-8", errors="ignore")
+except Exception as exc:
+    log(f"FAILED,oga-3d-character-pack,{page},page_fetch:{exc}")
+    raise SystemExit(0)
+
+hrefs = re.findall(r'''href=["']([^"']+\.zip(?:\?[^"']*)?)["']''', body, flags=re.I)
+urls = []
+for href in hrefs:
+    u = urllib.parse.urljoin(page, html.unescape(href))
+    if u not in urls:
+        urls.append(u)
+
+downloaded = []
+for idx, url in enumerate(urls, 1):
+    filename = pathlib.Path(urllib.parse.urlparse(url).path).name or f"character-pack-{idx}.zip"
+    dest = outdir / filename
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=180) as r, dest.open("wb") as f:
+            f.write(r.read())
+        if dest.stat().st_size > 1024:
+            downloaded.append(dest)
+        else:
+            dest.unlink(missing_ok=True)
+    except Exception as exc:
+        log(f"FAILED,oga-3d-character-pack,{url},download:{exc}")
+        dest.unlink(missing_ok=True)
+
+if downloaded:
+    bundle = pathlib.Path("release-assets/oga-3d-character-pack.zip")
+    with zipfile.ZipFile(bundle, "w", compression=zipfile.ZIP_DEFLATED) as z:
+        for f in downloaded:
+            z.write(f, f.relative_to(pathlib.Path("staging")))
+    log(f"MIRRORED,oga-3d-character-pack,{page},files={len(downloaded)}")
+else:
+    log(f"FAILED,oga-3d-character-pack,{page},no_zip_files_discovered")
+PY
+
+      - name: Checksums
+        run: |
+          sha256sum release-assets/*.zip > release-assets/TRANCHE2_SHA256SUMS.txt || true
+          ls -lah release-assets
+
+      - name: Publish tranche 2 release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -e
+          TAG="mega-assets-expansion-v2"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" release-assets/* --clobber
+          else
+            gh release create "$TAG" release-assets/*               --title "Image Mega Asset Expansion v2"               --notes "Second verified open-asset tranche: CC0 sprites, 3D characters, city/building, dungeon, furniture, graveyard, medieval hex and prototyping packs. Licences are preserved inside the mirrored packs."
+          fi
