@@ -1,0 +1,56 @@
+name: Mirror missing Quaternius packs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/mirror-quaternius.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare
+        run: |
+          python -m pip install --upgrade gdown
+          mkdir -p staging release-assets
+      - name: Download packs
+        shell: bash
+        run: |
+          set +e
+          : > release-assets/status.txt
+          fetch_folder () {
+            slug="$1"
+            url="$2"
+            rm -rf "staging/$slug"
+            mkdir -p "staging/$slug"
+            gdown --folder "$url" -O "staging/$slug"
+            code=$?
+            if [ $code -eq 0 ] && [ "$(find "staging/$slug" -type f | wc -l)" -gt 0 ]; then
+              (cd staging && zip -9 -r "../release-assets/$slug.zip" "$slug")
+              echo "MIRRORED,$slug,$url" >> release-assets/status.txt
+            else
+              echo "FAILED,$slug,$url,gdown_exit_$code" >> release-assets/status.txt
+            fi
+          }
+          fetch_folder quaternius-ultimate-animated-character "https://drive.google.com/drive/folders/1sNi1AfenfPRrvRt5yfaj5QMMd6KKcUJ5?usp=sharing"
+          fetch_folder quaternius-ultimate-animated-animals "https://drive.google.com/drive/folders/1uJ3N5HfB7jKTseJUNQr3N4YaN0UuEtHk?usp=sharing"
+          fetch_folder quaternius-animated-mech "https://drive.google.com/drive/folders/1sueV_4CGMpZC8y30mWfgKK9UaT3mkHBX?usp=sharing"
+      - name: Checksums
+        run: sha256sum release-assets/*.zip > release-assets/SHA256SUMS.txt || true
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="missing-assets-quaternius-v1"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" release-assets/* --clobber
+          else
+            gh release create "$TAG" release-assets/* --title "Quaternius Owned Asset Copies" --notes "Repository-owned copies of the Quaternius CC0 packs previously catalogued but not yet stored."
+          fi
