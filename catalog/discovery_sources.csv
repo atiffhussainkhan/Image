@@ -1,0 +1,10 @@
+id,name,source,license,categories,storage_strategy,verified_2026_10_05
+tiddybub-2d-assets,Tiddybub CC0 2D Assets,https://github.com/Tiddybub/2d-assets,CC0-1.0,"2D characters;sprites;effects;fantasy;sci-fi;urban;nature;tiles;UI;vehicles",release-mirror,true
+cc0tree,CC0Tree,https://github.com/SkywolfGameStudios/CC0Tree,CC0-1.0,"3D low-poly;props;environment;world-building",release-mirror,true
+holokat-game-assets,holokat Game Assets,https://github.com/holokat/game-assets,MIT,"3D characters;equipment;farm;buildings;infrastructure;creatures;VFX;animations",release-mirror,true
+shorepine-kenney,Kenney CC0 organized mirror,https://github.com/shorepine/kenney,CC0-1.0,"2D sprites;UI;icons;3D static models",release-mirror,true
+fps-buildings-env-kit,FPS Buildings & Environment Kit,https://github.com/petroulacl/fps-buildings-env-kit,CC0-1.0,"buildings;vegetation;skyboxes;PBR textures;urban;military",release-mirror,true
+fps-asset-kit,FPS Asset Kit,https://github.com/petroulacl/fps-asset-kit,CC0-1.0,"PBR textures;weapons;SFX;HDRIs",release-mirror,true
+poly-haven,Poly Haven,https://polyhaven.com,CC0-1.0,"3D models;PBR textures;HDRIs;background lighting",catalog-and-selective-download,true
+itch-cc0,itch.io CC0 game assets,https://itch.io/game-assets/assets-cc0,CC0-1.0,"characters;3D;2D;backgrounds;tilesets;UI;icons;textures;audio",catalog-crawl-per-pack,true
+kenney-free,Kenney free assets,https://kenney.nl/assets,CC0-1.0,"2D;3D;characters;buildings;environments;UI;audio;fonts",catalog-and-selective-download,true
