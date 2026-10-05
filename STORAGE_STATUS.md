@@ -26,3 +26,7 @@ These must not be treated as locally available until a release asset exists.
 ## User-supplied artwork
 
 Four original artwork archives (102,393 indexed files) are stored in the [workplace artwork release](https://github.com/atiffhussainkhan/Image/releases/tag/workplace-art-unverified-2026-10-05). See `catalog/workplace-art-unverified-2026-10-05/archive-manifest.json` for verified checksums and downloads, and its README for game-art suitability. Their licences remain unverified; they are separate from the approved reusable packs.
+
+## Active cleaned artwork library
+
+The [cleaned search gallery](catalog/game-art-search-v2-2026-10-05/README.md) is the active index for the four user-supplied archives. Unreadable, empty and unconvertible sources are excluded from its searchable records and cleaned PNG/JPEG packs. Use `catalog/user-artwork-active-library.json` for machine discovery. JSON/JSONL, SQLite, CSV and natural-language search are available in the [cleaned release](https://github.com/atiffhussainkhan/Image/releases/tag/game-art-search-v2-2026-10-05). Original archives remain historical backups; licences remain unverified.

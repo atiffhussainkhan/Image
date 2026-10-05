@@ -1,0 +1,77 @@
+{
+  "release_tag": "game-art-search-v2-2026-10-05",
+  "bundles": [
+    {
+      "name": "10000.HighDefinition.PNG.Icon.Pack-cleaned-01.zip",
+      "bytes": 168308686,
+      "sha256": "367d799d37959812e58194d7a32c4892f830d230bc52c95fcf48118abfe2d0f3",
+      "image_sources": 8287,
+      "files": 8287,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/10000.HighDefinition.PNG.Icon.Pack-cleaned-01.zip"
+    },
+    {
+      "name": "Clipart-cleaned-01.zip",
+      "bytes": 410035662,
+      "sha256": "ffbbafdd878ea23f5914fa67e9710ef981596be0b0deb1feef4025e6e3660b24",
+      "image_sources": 13989,
+      "files": 18301,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/Clipart-cleaned-01.zip"
+    },
+    {
+      "name": "EPS_Clipart-cleaned-01.zip",
+      "bytes": 903086623,
+      "sha256": "63587ced131bccb69d1c099b98803d8e3545e4a72353f6fd9227cbc7c94d4556",
+      "image_sources": 13714,
+      "files": 13714,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/EPS_Clipart-cleaned-01.zip"
+    },
+    {
+      "name": "EPS_Clipart-cleaned-02.zip",
+      "bytes": 903094201,
+      "sha256": "ead1248df9c4430157eaec348dffcdf1bce322311a4ee305cd5739f6bf082d30",
+      "image_sources": 13792,
+      "files": 13792,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/EPS_Clipart-cleaned-02.zip"
+    },
+    {
+      "name": "EPS_Clipart-cleaned-03.zip",
+      "bytes": 903102632,
+      "sha256": "011aec0c2104528525a64888e0c7a99c2cdca8c534b49215fecd1e8ee8e81394",
+      "image_sources": 13754,
+      "files": 13754,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/EPS_Clipart-cleaned-03.zip"
+    },
+    {
+      "name": "EPS_Clipart-cleaned-04.zip",
+      "bytes": 903121671,
+      "sha256": "376874f477297505dc615b2b839243d7a0e545d071bd539180f4d01e999e7b0d",
+      "image_sources": 13855,
+      "files": 13855,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/EPS_Clipart-cleaned-04.zip"
+    },
+    {
+      "name": "EPS_Clipart-cleaned-05.zip",
+      "bytes": 902994507,
+      "sha256": "b6369d3b279ec51acddcaf24261c49043dafeb2919bda3e48712f19330d213df",
+      "image_sources": 13762,
+      "files": 13762,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/EPS_Clipart-cleaned-05.zip"
+    },
+    {
+      "name": "EPS_Clipart-cleaned-06.zip",
+      "bytes": 755068692,
+      "sha256": "7935b9f283a6f7e2aba28f4483fe465b4c4245e0ca4a6db379c16facc531e5ee",
+      "image_sources": 11528,
+      "files": 11528,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/EPS_Clipart-cleaned-06.zip"
+    },
+    {
+      "name": "Samples-cleaned-01.zip",
+      "bytes": 428469332,
+      "sha256": "c6029249f0cf87702932095ae6871e23c0c1fe54c51c93923da171610a8ab790",
+      "image_sources": 7809,
+      "files": 7809,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/Samples-cleaned-01.zip"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "active_entries": 114852,
+  "unique_readable_images": 110490,
+  "removed_entries": 2195,
+  "all_active_vectors_verified": true,
+  "all_source_hashes_verified": true,
+  "all_normalized_hashes_verified": true,
+  "all_bundle_membership_verified": true,
+  "sqlite_integrity": "ok",
+  "keyword_queries": [
+    "sheep",
+    "arrow",
+    "flower"
+  ],
+  "asset_extraction_verified": true
+}

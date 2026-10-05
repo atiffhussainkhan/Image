@@ -42,3 +42,7 @@ For future AI agents and project automation, start with:
 ## Workplace artwork collection (unverified)
 
 The [workplace artwork audit](catalog/workplace-art-unverified-2026-10-05/README.md) indexes 102,393 files from four user-supplied archives. It is separate from the approved catalogue above. Sources and redistribution licences are unverified. Use its `index.html` search viewer to filter original filenames/categories, format and technical readiness. The [archive manifest](catalog/workplace-art-unverified-2026-10-05/archive-manifest.json) records exact stored-versus-local status and checksums.
+
+## Active cleaned artwork library
+
+The [cleaned search gallery](catalog/game-art-search-v2-2026-10-05/README.md) is the active index for the four user-supplied archives. Unreadable, empty and unconvertible sources are excluded from its searchable records and cleaned PNG/JPEG packs. Use `catalog/user-artwork-active-library.json` for machine discovery. JSON/JSONL, SQLite, CSV and natural-language search are available in the [cleaned release](https://github.com/atiffhussainkhan/Image/releases/tag/game-art-search-v2-2026-10-05). Original archives remain historical backups; licences remain unverified.

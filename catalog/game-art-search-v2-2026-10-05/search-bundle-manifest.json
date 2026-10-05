@@ -1,0 +1,22 @@
+{
+  "bundles": [
+    {
+      "name": "game-art-gallery.zip",
+      "bytes": 309743840,
+      "sha256": "7ac2df58a7c20a2a38bfc9b6d29be8102526997c82775a56338097d7c40e989a",
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/game-art-gallery.zip"
+    },
+    {
+      "name": "game-art-search-data.zip",
+      "bytes": 146195958,
+      "sha256": "2a7ff63f634aa21bdd4c32f1efa97edcc4acd744de84178602a8993860d72c97",
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/game-art-search-data.zip"
+    },
+    {
+      "name": "game-art-semantic-search.zip",
+      "bytes": 152591320,
+      "sha256": "347137c962bfb26a05f5c5b1dd5769b003ad9eec714d4348487fb29d5c1851ea",
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/game-art-semantic-search.zip"
+    }
+  ]
+}

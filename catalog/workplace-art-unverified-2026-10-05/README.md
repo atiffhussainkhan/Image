@@ -1,3 +1,5 @@
+> **Superseded for active image search:** use [the cleaned library](../game-art-search-v2-2026-10-05/README.md). This folder remains the historical source audit, including entries removed from the active library.
+
 # Workplace artwork audit — 5 October 2026
 
 102,393 files inspected across four archives. Original archives remain untouched. This directory indexes locally supplied artwork; it does not grant rights to the artwork.

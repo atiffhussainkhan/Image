@@ -79,3 +79,7 @@ The repository stores reusable copies where redistribution is permitted. Origina
 ## Unverified workplace artwork — separate audit
 
 Start at `catalog/workplace-art-unverified-2026-10-05/README.md`, `search-manifest.json` and `archive-manifest.json`. This collection indexes 102,393 original paths across PNG icons, mixed clipart, EPS vectors and WMF/photo samples. Search gzip shards list pack, original path, category, format, dimensions and technical readiness. `raster-ready` is only a decoding/format classification, never a licence approval. Check archive storage status before assuming binaries exist in the repository. Do not represent these packs as licence-clear or apply this repository metadata licence to their artwork.
+
+## Active cleaned artwork library
+
+The [cleaned search gallery](catalog/game-art-search-v2-2026-10-05/README.md) is the active index for the four user-supplied archives. Unreadable, empty and unconvertible sources are excluded from its searchable records and cleaned PNG/JPEG packs. Use `catalog/user-artwork-active-library.json` for machine discovery. JSON/JSONL, SQLite, CSV and natural-language search are available in the [cleaned release](https://github.com/atiffhussainkhan/Image/releases/tag/game-art-search-v2-2026-10-05). Original archives remain historical backups; licences remain unverified.
