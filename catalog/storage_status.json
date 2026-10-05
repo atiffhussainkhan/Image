@@ -3,7 +3,7 @@
   "rule": "A pack is usable from this repository only when status=stored and release_asset is populated.",
   "stored": [
     {
-      "id": "jam-ready-assets",
+      "id": "series-ai-jam-ready-assets",
       "release": "mega-assets-v1",
       "release_asset": "jam-ready-assets.zip",
       "size_bytes": 1533150036,
