@@ -1,5 +1,11 @@
 # AI Asset Index
 
+**Canonical machine-readable search index:** `catalog/MASTER_ASSET_INDEX.json`
+
+**Crawler-friendly table:** `catalog/MASTER_ASSET_INDEX.csv`
+
+**Crawler entrypoint:** `CRAWLER_ENTRYPOINT.md`
+
 This repository is the master reusable game-asset library.
 
 ## How AI models should use this repository
@@ -67,3 +73,5 @@ GameProject/
 
 ## Licence rule
 The repository stores reusable copies where redistribution is permitted. Original source URLs remain only as provenance. Do not remove bundled LICENSE/README files from third-party packs.
+
+| mega-library, mixed 2D/3D, UI, icons, audio, broad game assets | jam-ready-assets.zip | core | Large curated mixed asset collection |
