@@ -29,3 +29,12 @@ assets/             reviewed assets intended for repository inclusion
 
 ## Licence
 This repository's own metadata/scripts may be reused, but **each third-party asset retains its own licence**. See `docs/LICENSE_POLICY.md` and each catalogue entry before redistributing an upstream asset.
+
+## AI-first discovery
+For future AI agents and project automation, start with:
+- `AI_ASSET_INDEX.md` — human-readable semantic search map
+- `catalog/storage_status.json` — exact stored-vs-unresolved state
+- `catalog/repository_manifest.json` — machine-readable repository purpose and release locations
+- `catalog/assets.json` and `catalog/discovery_sources.csv` — provenance and catalogue metadata
+
+**Rule:** external source URLs are provenance only. When a stored release asset exists, AI agents should use the repository-owned copy instead of the external source.
