@@ -1,0 +1,121 @@
+[
+  {
+    "pack": "10000.HighDefinition.PNG.Icon.Pack",
+    "stats": {
+      "files": 10632,
+      ".png": 10621,
+      "decoded_rasters": 10621,
+      "alpha_capable": 10620,
+      "small_rasters": 58,
+      "duplicate_files": 2332,
+      ".db": 11
+    },
+    "bytes": 263980273,
+    "common_dimensions": {
+      "(128, 128)": 9031,
+      "(256, 256)": 862,
+      "(192, 192)": 421,
+      "(200, 200)": 179,
+      "(95, 96)": 26,
+      "(230, 230)": 20,
+      "(64, 64)": 20,
+      "(231, 231)": 9,
+      "(283, 283)": 6,
+      "(300, 300)": 5
+    },
+    "licence_documents": [],
+    "rendering_note": "EPS/WMF rendering not verified; no compatible renderer installed."
+  },
+  {
+    "pack": "Clipart",
+    "stats": {
+      "files": 3374,
+      ".drw": 1723,
+      ".tif": 411,
+      "decoded_rasters": 692,
+      ".jpg": 145,
+      ".sbj": 65,
+      "small_rasters": 56,
+      ".mgx": 4,
+      ".db": 9,
+      "duplicate_files": 68,
+      ".gif": 114,
+      "alpha_capable": 86,
+      ".drt": 4,
+      ".wmf": 726,
+      ".bmp": 8,
+      ".rle": 9,
+      ".jpeg": 4,
+      ".wpg": 1,
+      ".pcx": 1,
+      ".txt": 1,
+      ".mpf": 149
+    },
+    "bytes": 642240696,
+    "common_dimensions": {
+      "(204, 300)": 10,
+      "(300, 192)": 9,
+      "(113, 97)": 9,
+      "(225, 300)": 8,
+      "(300, 188)": 7,
+      "(207, 300)": 7,
+      "(300, 238)": 6,
+      "(223, 300)": 6,
+      "(300, 239)": 6,
+      "(300, 194)": 6
+    },
+    "licence_documents": [
+      {
+        "path": "Clipart/Disney Clipart 800+/install it.txt",
+        "text": "Ripped from the print studios by me :) In wmf, bmp and gif formats.\r\n\r\nTo install:\r\nunace and copy to where you store you clipart!\r\n\r\nit's that easy - no rips, no mess, no fuss.\r\n\r\nIf you have any family games or programs please upload them to the.daffyduck\r\nWe especially want Disney, Looney Tunes and other animated games and programs."
+      }
+    ],
+    "rendering_note": "EPS/WMF rendering not verified; no compatible renderer installed."
+  },
+  {
+    "pack": "EPS_Clipart",
+    "stats": {
+      "files": 80418,
+      ".eps": 80413,
+      "eps_with_bbox": 80413,
+      "eps_with_header": 80412,
+      "": 5,
+      "duplicate_files": 8
+    },
+    "bytes": 3852378610,
+    "common_dimensions": {},
+    "licence_documents": [],
+    "rendering_note": "EPS/WMF rendering not verified; no compatible renderer installed."
+  },
+  {
+    "pack": "Samples",
+    "stats": {
+      "files": 7969,
+      ".imf": 107,
+      ".db": 100,
+      ".wmf": 6178,
+      "duplicate_files": 58,
+      ".bmp": 3,
+      "decoded_rasters": 1547,
+      "small_rasters": 57,
+      ".jpg": 1578,
+      ".ini": 3,
+      "decode_failures": 34
+    },
+    "bytes": 301873956,
+    "common_dimensions": {
+      "(678, 435)": 1256,
+      "(435, 678)": 148,
+      "(106, 102)": 3,
+      "(100, 100)": 3,
+      "(144, 144)": 2,
+      "(300, 300)": 2,
+      "(149, 119)": 2,
+      "(138, 112)": 2,
+      "(389, 678)": 1,
+      "(644, 435)": 1
+    },
+    "licence_documents": [],
+    "rendering_note": "EPS/WMF rendering not verified; no compatible renderer installed."
+  }
+]
