@@ -1,0 +1,32 @@
+{
+  "preferred_active_index": "catalog/game-art-search-v2-2026-10-05/assets.jsonl.gz",
+  "rule": "Select standalone art from the verified active index. Availability of an older archive does not certify every member as a direct engine image.",
+  "ignore_metadata_patterns": [
+    "**/__MACOSX/**",
+    "**/._*",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    ".nojekyll",
+    ".gitkeep"
+  ],
+  "require_contextual_review": [
+    "fully-transparent standalone images",
+    "uniform images unless deliberate material/texture/timing data",
+    "SVG without width/height or viewBox",
+    "non-image binary and editor formats requiring their importer"
+  ],
+  "format_overrides": "format-overrides.json",
+  "file_audit": "file-audit.jsonl.gz",
+  "unavailable_catalogued_packs": [
+    "quaternius-ultimate-animated-character",
+    "quaternius-ultimate-animated-animals",
+    "quaternius-animated-mech",
+    "kaykit-dungeon",
+    "avramania-nature-terrain",
+    "mastjie-household-goods",
+    "barnabe-wild-rigged-character",
+    "jean-charpentier-lowpoly"
+  ],
+  "file_status_field": "validation_status (initial_status preserves the first decoder result)",
+  "supplemental_renderer_evidence": "supplemental-format-audit.json"
+}

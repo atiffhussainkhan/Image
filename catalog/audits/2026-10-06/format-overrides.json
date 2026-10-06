@@ -1,0 +1,58 @@
+{
+  "overrides": [
+    {
+      "release": "mega-assets-v1",
+      "archive": "jam-ready-assets.zip",
+      "original_path": "jam-ready-assets/proofofplay-pirate-nation/icons/preview.png",
+      "original_sha256": "3624ad2a8c696030410bf93a7aa4f1959340dc46703bb1dc1cf000ae208c24a0",
+      "reason": "JPEG data had PNG filename",
+      "corrected_file": "corrected-previews/pirate-nation-icons-preview.png",
+      "corrected_sha256": "750bd4217bb7324be73d9d86df9c8f23dfb854c717b9e24b95d4423c3bc047dc",
+      "decoded_pixels_preserved": true
+    },
+    {
+      "release": "mega-assets-v1",
+      "archive": "jam-ready-assets.zip",
+      "original_path": "jam-ready-assets/proofofplay-pirate-nation/ui/preview.png",
+      "original_sha256": "fd988afe55a1f08344c38751935441726ce5aa61dff251d7669c73e26f4eb832",
+      "reason": "JPEG data had PNG filename",
+      "corrected_file": "corrected-previews/pirate-nation-ui-preview.png",
+      "corrected_sha256": "91af7bebf5f9863ed5aedabd5e9a20c2202e89722b36d6ecfc9c7da3943347a7",
+      "decoded_pixels_preserved": true
+    },
+    {
+      "release": "mega-assets-v1",
+      "archive": "jam-ready-assets.zip",
+      "original_path": "jam-ready-assets/proofofplay-pirate-nation/audio/preview.png",
+      "original_sha256": "68e1f084f48a358e585e95479dbb25b302fc9527f6e3adbd1b969a03e1b3de82",
+      "reason": "JPEG data had PNG filename",
+      "corrected_file": "corrected-previews/pirate-nation-audio-preview.png",
+      "corrected_sha256": "08306eb2477a7837040b2e63b67fa866f0f91867b92e4d88c2d43e05df7fed07",
+      "decoded_pixels_preserved": true
+    },
+    {
+      "release": "mega-assets-v1",
+      "archive": "jam-ready-assets.zip",
+      "original_path": "jam-ready-assets/proofofplay-pirate-nation/3D/pirate/preview.png",
+      "original_sha256": "3624ad2a8c696030410bf93a7aa4f1959340dc46703bb1dc1cf000ae208c24a0",
+      "reason": "JPEG data had PNG filename",
+      "corrected_file": "corrected-previews/pirate-nation-3D-pirate-preview.png",
+      "corrected_sha256": "750bd4217bb7324be73d9d86df9c8f23dfb854c717b9e24b95d4423c3bc047dc",
+      "decoded_pixels_preserved": true
+    },
+    {
+      "release": "mega-assets-expansion-v1",
+      "archive": "tiddybub-2d-assets.zip",
+      "original_path": "tiddybub-2d-assets/characters/oga-game-character/char_source_2.0_unpacked/Vector/gameCharacter.svg",
+      "original_sha256": "a5b3897d414d1707b368952cd5a60e3a3435bb31b2dfcfb402308f730418adaf",
+      "reason": "SVG lacked an explicit canvas; transparent-backdrop renderer produced empty output",
+      "corrected_file": "corrected-previews/gameCharacter.svg",
+      "corrected_sha256": "568f99ba285a3387ff392cae1354c17be3283c34e847176478cf8b70b32dca03",
+      "engine_png": "corrected-previews/gameCharacter.png",
+      "engine_png_sha256": "25fdcf707bc01bb408dfd1ea0304b1fdde58e3a1134059aec082df1eb9481a91",
+      "drawing_geometry_preserved": true,
+      "canvas_bounds_source": "Browser layout bounds of all six drawing shapes; 5% margin"
+    }
+  ],
+  "rule": "Use the corrected file or its engine PNG for these members. Original source archives remain unchanged."
+}

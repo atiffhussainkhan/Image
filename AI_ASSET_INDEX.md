@@ -83,3 +83,7 @@ Start at `catalog/workplace-art-unverified-2026-10-05/README.md`, `search-manife
 ## Active cleaned artwork library
 
 The [cleaned search gallery](catalog/game-art-search-v2-2026-10-05/README.md) is the active index for the four user-supplied archives. Unreadable, empty and unconvertible sources are excluded from its searchable records and cleaned PNG/JPEG packs. Use `catalog/user-artwork-active-library.json` for machine discovery. JSON/JSONL, SQLite, CSV and natural-language search are available in the [cleaned release](https://github.com/atiffhussainkhan/Image/releases/tag/game-art-search-v2-2026-10-05). Original archives remain historical backups; licences remain unverified.
+
+## Complete file and image audit
+
+The [6 October 2026 audit](catalog/audits/2026-10-06/REPORT.md) checked Image and animation, all 54 Image release files, 104 ZIPs including nested archives, and 408,439 file occurrences. All 110,490 cleaned master images and all 132 animation frames passed. For older/source packs, consult the [safe import policy](catalog/audits/2026-10-06/safe-import-policy.json) and [corrected preview overrides](catalog/audits/2026-10-06/format-overrides.json): stored availability does not certify every member as standalone engine art.

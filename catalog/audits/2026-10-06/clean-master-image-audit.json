@@ -1,0 +1,12 @@
+{
+  "unique_master_images": 110490,
+  "states": {
+    "image-pass": 110490
+  },
+  "all_unique_master_images_decoded_and_nonempty": true,
+  "engine_extensions": [
+    "PNG",
+    "JPEG"
+  ],
+  "all_search_records": 114852
+}

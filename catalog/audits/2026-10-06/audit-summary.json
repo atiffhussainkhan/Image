@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-06",
+  "repositories": [
+    {
+      "repository": "atiffhussainkhan/Image",
+      "commit": "3faf784ed92aa9393d33b6d02150d5140d1fc20e",
+      "every_tracked_blob_matches_remote_commit": true,
+      "tracked_files": 1935,
+      "bytes": 405792699
+    },
+    {
+      "repository": "atiffhussainkhan/animation",
+      "commit": "cfd2815af72d890a4bbc349c3d8a455831f207ec",
+      "every_tracked_blob_matches_remote_commit": true,
+      "tracked_files": 19,
+      "bytes": 481760
+    }
+  ],
+  "file_occurrences_inspected": 408439,
+  "zip_archives_inspected_including_nested": 104,
+  "github_release_files_integrity_verified": 54,
+  "cleaned_library": {
+    "unique_master_images": 110490,
+    "states": {
+      "image-pass": 110490
+    },
+    "all_unique_master_images_decoded_and_nonempty": true,
+    "engine_extensions": [
+      "PNG",
+      "JPEG"
+    ],
+    "all_search_records": 114852,
+    "index_records_checked": 114852,
+    "master_images_checked_against_actual_zip_bytes": 110490,
+    "animation_frame_files_checked_against_actual_zip_bytes": 4312,
+    "all_indexed_hashes_and_sizes_match_zip_contents": true,
+    "all_discovery_shard_ids_match": true,
+    "fully_transparent_animation_timing_frame_files": 4,
+    "other_image_extension_mismatches": [
+      {
+        "collection": "work/full-audit/downloads/mega-assets-v1/jam-ready-assets.zip",
+        "path": "jam-ready-assets/proofofplay-pirate-nation/icons/preview.png",
+        "actual_format": "JPEG"
+      },
+      {
+        "collection": "work/full-audit/downloads/mega-assets-v1/jam-ready-assets.zip",
+        "path": "jam-ready-assets/proofofplay-pirate-nation/ui/preview.png",
+        "actual_format": "JPEG"
+      },
+      {
+        "collection": "work/full-audit/downloads/mega-assets-v1/jam-ready-assets.zip",
+        "path": "jam-ready-assets/proofofplay-pirate-nation/audio/preview.png",
+        "actual_format": "JPEG"
+      },
+      {
+        "collection": "work/full-audit/downloads/mega-assets-v1/jam-ready-assets.zip",
+        "path": "jam-ready-assets/proofofplay-pirate-nation/3D/pirate/preview.png",
+        "actual_format": "JPEG"
+      }
+    ],
+    "preview_tiles_checked": 110490,
+    "uniform_preview_tiles": 0,
+    "very_low_contrast_preview_tiles": 0,
+    "exclusions": 2195,
+    "unique_unreadable_or_empty_master_images": 0,
+    "intentional_blank_timing_frames": 6,
+    "every_indexed_dimension_matches_decoded_zip_image": true,
+    "every_engine_format_matches_actual_header": true
+  },
+  "animation_repository": {
+    "sprite_sheets": 12,
+    "frames_checked": 132,
+    "passed": true
+  },
+  "secondary_decoder_recoveries": 71,
+  "editor_sources_checked": 747,
+  "aseprite_sources_checked": 715,
+  "illustrator_artwork_rendered": 28,
+  "macos_sidecar_file_occurrences": 109,
+  "unreadable_png_sidecars_excluded": 4,
+  "empty_nonimage_marker_files": 2,
+  "uniform_raster_file_occurrences": 858,
+  "fully_transparent_raster_file_occurrences": 392,
+  "svg_files_without_explicit_viewport": 1494,
+  "default_empty_svg_repaired": 1,
+  "preview_extension_mismatches_corrected": 4,
+  "catalog_size_mismatch_corrected": 1,
+  "unavailable_catalogued_packs": [
+    {
+      "id": "quaternius-ultimate-animated-character",
+      "status": "not_in_release",
+      "reason": "Catalogued and download step ran, but no owned archive is present in any release yet."
+    },
+    {
+      "id": "quaternius-ultimate-animated-animals",
+      "status": "not_in_release",
+      "reason": "Catalogued; no owned archive present."
+    },
+    {
+      "id": "quaternius-animated-mech",
+      "status": "not_in_release",
+      "reason": "Catalogued; no owned archive present."
+    },
+    {
+      "id": "kaykit-dungeon",
+      "status": "not_in_release",
+      "reason": "Original catalogued pack not stored; remastered dungeon pack is stored separately."
+    },
+    {
+      "id": "avramania-nature-terrain",
+      "status": "not_in_release",
+      "reason": "Catalogued; host did not yield a directly stored archive in current releases."
+    },
+    {
+      "id": "mastjie-household-goods",
+      "status": "not_in_release",
+      "reason": "Catalogued; host did not yield a directly stored archive in current releases."
+    },
+    {
+      "id": "barnabe-wild-rigged-character",
+      "status": "not_in_release",
+      "reason": "Catalogued; host did not yield a directly stored archive in current releases."
+    },
+    {
+      "id": "jean-charpentier-lowpoly",
+      "status": "not_in_release",
+      "reason": "Catalogued; host did not yield a directly stored archive in current releases."
+    }
+  ],
+  "verdict": "Cleaned master images and animation repository pass exhaustive technical checks. The complete repositories are not image-only or universally engine-ready: source backups, non-image game data, sidecars, blank timing/font/texture files, conditional vectors and unstored catalogue entries remain explicitly distinguished.",
+  "human_review": "Representative previews and corrected artwork inspected; no claim of manually viewing all 408,439 file occurrences.",
+  "limitations": [
+    "Original archives retain excluded/unconvertible sources as backups.",
+    "Models/audio/editor files passed byte/hash/ZIP integrity; universal gameplay-engine import was not certified.",
+    "Uniform/transparent files may be intentional material textures, font spaces, spritesheet padding or animation timing frames; contextual flags do not declare corruption.",
+    "SVGs lacking explicit viewport geometry require an appropriate importer or canvas repair.",
+    "Third-party licences for user-supplied artwork remain unverified.",
+    "Semantic labels are model suggestions, not individually human-verified descriptions."
+  ],
+  "resolved_validation_counts": {
+    "image-decode-and-content-pass": 317484,
+    "data-pass": 77897,
+    "metadata-pass": 449,
+    "decoded-contextual-review": 1250,
+    "editor-source-data-pass": 743,
+    "alternate-renderer-pass": 8937,
+    "archive-pass": 70,
+    "valid-vector-requires-viewport-review": 1493,
+    "use-corrected-override": 5,
+    "expected-empty-nonimage-marker": 2,
+    "excluded-filesystem-metadata": 109
+  },
+  "file_ledger_includes_resolved_verdicts": true
+}

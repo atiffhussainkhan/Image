@@ -1,0 +1,58 @@
+[
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle7.png",
+    "status": "exclude-unreadable-sidecar",
+    "reason": "Invalid PNG inside a macOS sidecar directory; not a game image",
+    "sha256": "ffb7b3a3865c0bda27d1f852d3d510126e8e9280f292ff8e0b773d1b7f07a9ed"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle4.png",
+    "status": "exclude-unreadable-sidecar",
+    "reason": "Invalid PNG inside a macOS sidecar directory; not a game image",
+    "sha256": "ffb7b3a3865c0bda27d1f852d3d510126e8e9280f292ff8e0b773d1b7f07a9ed"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle6.png",
+    "status": "exclude-unreadable-sidecar",
+    "reason": "Invalid PNG inside a macOS sidecar directory; not a game image",
+    "sha256": "ffb7b3a3865c0bda27d1f852d3d510126e8e9280f292ff8e0b773d1b7f07a9ed"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle5.png",
+    "status": "exclude-unreadable-sidecar",
+    "reason": "Invalid PNG inside a macOS sidecar directory; not a game image",
+    "sha256": "ffb7b3a3865c0bda27d1f852d3d510126e8e9280f292ff8e0b773d1b7f07a9ed"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle5.ai",
+    "status": "exclude-filesystem-metadata",
+    "reason": "AppleDouble resource fork; not Illustrator artwork",
+    "sha256": "a4481229dd2c7ed07874d9c8c14e9d3b3a5430bca733bb51a35aa2e66bdff672"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle6.ai",
+    "status": "exclude-filesystem-metadata",
+    "reason": "AppleDouble resource fork; not Illustrator artwork",
+    "sha256": "04c64ca8a7535450a9571062f9b22ab39b3d983f6a6bdabc2dd6cb43a23ddb9e"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle4.ai",
+    "status": "exclude-filesystem-metadata",
+    "reason": "AppleDouble resource fork; not Illustrator artwork",
+    "sha256": "ca16635423894c8778c12b7f0117648409775aa67da962b76c49c0a6adb9ba33"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle7.ai",
+    "status": "exclude-filesystem-metadata",
+    "reason": "AppleDouble resource fork; not Illustrator artwork",
+    "sha256": "23a7542a349ed75f5b3bbcbc1b49a8909c2d93ab338e120a6ed29e4577b50542"
+  }
+]

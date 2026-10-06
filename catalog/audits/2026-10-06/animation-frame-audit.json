@@ -1,0 +1,104 @@
+{
+  "sheets": 12,
+  "declared_frames": 132,
+  "passed": true,
+  "results": [
+    {
+      "character": "Knight",
+      "animation": "Idle",
+      "path": "work/animation/packs/opengameart-knight-princess-dragon/Knight/Knight-Idle.webp",
+      "frames": 16,
+      "issues": [],
+      "sha256": "9859e267d6463458c1851cd94ee077b519a94385a3b966ecc8627fc3d320f866"
+    },
+    {
+      "character": "Knight",
+      "animation": "Walk",
+      "path": "work/animation/packs/opengameart-knight-princess-dragon/Knight/Knight-Walk.webp",
+      "frames": 10,
+      "issues": [],
+      "sha256": "e723b2bdb503c2b990f376662a1cbfa35ef841f601c5a963b77618efe3701bd3"
+    },
+    {
+      "character": "Knight",
+      "animation": "Jump",
+      "path": "work/animation/packs/opengameart-knight-princess-dragon/Knight/Knight-Jump.webp",
+      "frames": 8,
+      "issues": [],
+      "sha256": "d865a1d21ba38a4efd6de96e0c56722377ad91edf1e4e0ddcb5f6a9430107b56"
+    },
+    {
+      "character": "Knight",
+      "animation": "Die",
+      "path": "work/animation/packs/opengameart-knight-princess-dragon/Knight/Knight-Die.webp",
+      "frames": 10,
+      "issues": [],
+      "sha256": "7e3cb15811886e913a73d36ccf9f99fbe847638b92520d8dfd3e2c83970fa2e2"
+    },
+    {
+      "character": "Princess",
+      "animation": "Idle",
+      "path": "work/animation/packs/opengameart-knight-princess-dragon/Princess/Princess-Idle.webp",
+      "frames": 16,
+      "issues": [],
+      "sha256": "fd05c384a7f0765aa75fd77fd2ed51ff5f64418703eef16948b2bcf45f9d2035"
+    },
+    {
+      "character": "Princess",
+      "animation": "Walk",
+      "path": "work/animation/packs/opengameart-knight-princess-dragon/Princess/Princess-Walk.webp",
+      "frames": 10,
+      "issues": [],
+      "sha256": "c8819352215cca4d93d317b0b559034b370a45fd0ba0b5887856d96bf5b4e6a3"
+    },
+    {
+      "character": "Princess",
+      "animation": "Jump",
+      "path": "work/animation/packs/opengameart-knight-princess-dragon/Princess/Princess-Jump.webp",
+      "frames": 8,
+      "issues": [],
+      "sha256": "555c5163d66c741a0728e38d5741933d3ab71d31db601fc015afbeb8d1fc46fd"
+    },
+    {
+      "character": "Princess",
+      "animation": "Die",
+      "path": "work/animation/packs/opengameart-knight-princess-dragon/Princess/Princess-Die.webp",
+      "frames": 10,
+      "issues": [],
+      "sha256": "4956596afbc03bed54d8759abcf9ef03ffeaf5b73f320933fc92434dd2514297"
+    },
+    {
+      "character": "Dragon",
+      "animation": "Idle",
+      "path": "work/animation/packs/opengameart-knight-princess-dragon/Dragon/Dragon-Idle.webp",
+      "frames": 16,
+      "issues": [],
+      "sha256": "663c7280f48dac96ffff4c364fb0882691789eaa2ff5b463c603036a35ef3247"
+    },
+    {
+      "character": "Dragon",
+      "animation": "Walk",
+      "path": "work/animation/packs/opengameart-knight-princess-dragon/Dragon/Dragon-Walk.webp",
+      "frames": 10,
+      "issues": [],
+      "sha256": "90744622832956421bf70237a3e9d98b7f7b330cf5567e1a176b951788cc5eaf"
+    },
+    {
+      "character": "Dragon",
+      "animation": "Jump",
+      "path": "work/animation/packs/opengameart-knight-princess-dragon/Dragon/Dragon-Jump.webp",
+      "frames": 8,
+      "issues": [],
+      "sha256": "0e0673826836fff6d71a7f09bd2626b0384b778951ab1723a85af7fdf90f7830"
+    },
+    {
+      "character": "Dragon",
+      "animation": "Die",
+      "path": "work/animation/packs/opengameart-knight-princess-dragon/Dragon/Dragon-Die.webp",
+      "frames": 10,
+      "issues": [],
+      "sha256": "69f91bef5cfe871d049d76a5230dbb4b262dee66df227c4fd2668eb0307243f3"
+    }
+  ],
+  "blank_unused_grid_cells": "Expected padding; excluded from declared animation frames"
+}

@@ -59,5 +59,16 @@
       "png",
       "jpg"
     ]
+  },
+  "latest_content_audit": {
+    "date": "2026-10-06",
+    "repositories": [
+      "atiffhussainkhan/Image",
+      "atiffhussainkhan/animation"
+    ],
+    "report": "catalog/audits/2026-10-06/REPORT.md",
+    "summary": "catalog/audits/2026-10-06/audit-summary.json",
+    "safe_import_policy": "catalog/audits/2026-10-06/safe-import-policy.json",
+    "format_overrides": "catalog/audits/2026-10-06/format-overrides.json"
   }
 }

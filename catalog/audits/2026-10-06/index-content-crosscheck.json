@@ -1,0 +1,32 @@
+{
+  "index_records_checked": 114852,
+  "master_images_checked_against_actual_zip_bytes": 110490,
+  "animation_frame_files_checked_against_actual_zip_bytes": 4312,
+  "all_indexed_hashes_and_sizes_match_zip_contents": true,
+  "all_discovery_shard_ids_match": true,
+  "fully_transparent_animation_timing_frame_files": 4,
+  "other_image_extension_mismatches": [
+    {
+      "collection": "work/full-audit/downloads/mega-assets-v1/jam-ready-assets.zip",
+      "path": "jam-ready-assets/proofofplay-pirate-nation/icons/preview.png",
+      "actual_format": "JPEG"
+    },
+    {
+      "collection": "work/full-audit/downloads/mega-assets-v1/jam-ready-assets.zip",
+      "path": "jam-ready-assets/proofofplay-pirate-nation/ui/preview.png",
+      "actual_format": "JPEG"
+    },
+    {
+      "collection": "work/full-audit/downloads/mega-assets-v1/jam-ready-assets.zip",
+      "path": "jam-ready-assets/proofofplay-pirate-nation/audio/preview.png",
+      "actual_format": "JPEG"
+    },
+    {
+      "collection": "work/full-audit/downloads/mega-assets-v1/jam-ready-assets.zip",
+      "path": "jam-ready-assets/proofofplay-pirate-nation/3D/pirate/preview.png",
+      "actual_format": "JPEG"
+    }
+  ],
+  "every_indexed_dimension_matches_decoded_zip_image": true,
+  "every_engine_format_matches_actual_header": true
+}
