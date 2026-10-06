@@ -77,7 +77,6 @@
   "aseprite_sources_checked": 715,
   "illustrator_artwork_rendered": 28,
   "macos_sidecar_file_occurrences": 109,
-  "unreadable_png_sidecars_excluded": 4,
   "empty_nonimage_marker_files": 2,
   "uniform_raster_file_occurrences": 858,
   "fully_transparent_raster_file_occurrences": 392,
@@ -150,5 +149,9 @@
     "expected-empty-nonimage-marker": 2,
     "excluded-filesystem-metadata": 109
   },
-  "file_ledger_includes_resolved_verdicts": true
+  "file_ledger_includes_resolved_verdicts": true,
+  "png_named_sidecars_are_metadata": 4,
+  "sidecar_headers_verified": 78,
+  "all_secondary_renderer_inputs_sha256_verified": true,
+  "secondary_renderer_results_passed": 10505
 }

@@ -11,7 +11,7 @@
 
 - **54 GitHub release files** verified for size and SHA-256, covering every file in all five Image releases. Four original archive hashes and their earlier complete source audit were reused; original unusable sources remain documented in the exclusion ledger.
 - **104 ZIP archives**, including every nested ZIP, completely read. Every member was checked by the ZIP CRC decoder; **408,439 file occurrences** inspected, including repeated packs, metadata and previews. No archive-member CRC failure was found.
-- Raster headers, dimensions, full pixel decoding and animation frames checked. SVG XML plus actual rendering checked. PSD/HDR warnings retried with the appropriate renderer. Aseprite header/frame/chunk/cel data checked against the [official format specification](https://github.com/aseprite/aseprite/blob/main/docs/ase-file-specs.md).
+- Raster headers, dimensions, full pixel decoding and animation frames checked. SVG XML plus actual rendering checked. PSD/HDR warnings retried with the appropriate renderer. All 10,505 secondary-render inputs were matched to their recorded SHA-256; archive reads were serialized during parallel rendering. Aseprite header/frame/chunk/cel data checked against the [official format specification](https://github.com/aseprite/aseprite/blob/main/docs/ase-file-specs.md).
 - All 1,954 tracked Git blobs matched the audited GitHub commits. Metadata corrections and new override files described below were subsequently prepared separately and verified.
 
 ## Cleaned artwork — pass
@@ -36,7 +36,7 @@ All **12 WebP sheets and 132 declared animation frames** decoded and contained v
 
 1. **Four `.png` previews contained JPEG data.** Proper PNG replacements were created; decoded pixels are identical. Use [format-overrides.json](format-overrides.json).
 2. **One SVG rendered empty because it lacked a canvas.** All six drawing shapes were measured in the browser; explicit bounds with a 5% margin were added. The [corrected SVG](corrected-previews/gameCharacter.svg) and [engine PNG](corrected-previews/gameCharacter.png) render nonempty, complete artwork without changing the drawing geometry.
-3. **Four unreadable PNG sidecars** occur under `__MACOSX/._*` in an older source archive. They are excluded from game-image selection. Other AppleDouble sidecars are also filesystem metadata, not artwork; four apparent Illustrator failures were confirmed as AppleDouble resource forks.
+3. **109 filesystem sidecar occurrences** are excluded from image selection. The four PNG-named sidecars and four apparent Illustrator failures are valid AppleDouble resource-fork data, not artwork. All 78 image/editor-named sidecars were identified by their metadata headers.
 4. **71 raster warnings** were decoder limitations and passed secondary decoding. All **715 Aseprite sources** passed structural/cel checks; all **28 actual Illustrator sources** rendered. Metadata sidecars are excluded from those artwork counts.
 5. **One catalogue size was wrong by one byte.** `opengameart-modular-vector-characters.zip` is 71,527,593 bytes. The storage record and both master indexes were corrected.
 6. **1,494 SVG occurrences lack explicit canvas dimensions or `viewBox`.** Their vector data is present, but reliable direct import depends on the importer or repaired bounds. One empty default render was corrected; the other entries remain flagged in [conditional-vectors.csv](conditional-vectors.csv).

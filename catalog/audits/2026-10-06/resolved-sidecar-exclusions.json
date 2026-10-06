@@ -1,58 +1,548 @@
 [
   {
     "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/misc/oga-customizable-pumpkins/pumpkin_unpacked/__MACOSX/Pumpkin/._AmbientOcclusion.tga",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "00cae67a835c85683fc592498a066e5c0a056f2b8756847d24da296d870dabc2"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/misc/oga-customizable-pumpkins/pumpkin_unpacked/__MACOSX/Pumpkin/Faces/._Kitty.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "533397d232d123f10d0584d8a5ca855dbd6689f87a9f4f894e280686bd82174d"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/misc/oga-customizable-pumpkins/pumpkin_unpacked/__MACOSX/Pumpkin/Faces/._CircleyCrossEyed.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "a148b6681d55623eca72490fb362707d9176cb84789c10b265be08f1208097a9"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/misc/oga-customizable-pumpkins/pumpkin_unpacked/__MACOSX/Pumpkin/Faces/._Cyclopes.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "7557afba934e35ee04214f9f5e00c9ce4db4439f9f28adbb0db4aee517e0ac4a"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/misc/oga-customizable-pumpkins/pumpkin_unpacked/__MACOSX/Pumpkin/Faces/._SadFace.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "331d7c820b8fc8e08950b505b3a56194cf2aa1615e272b3e900987bb13cb39c6"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/misc/oga-customizable-pumpkins/pumpkin_unpacked/__MACOSX/Pumpkin/Faces/._HappyFace.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "21aa83b01faa6f2a3f26d09cc3e0659d5db296fa7824eac88d9de893288d5ecc"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/misc/oga-customizable-pumpkins/pumpkin_unpacked/__MACOSX/Pumpkin/Faces/._Pumpkin.psd",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "0a79b55ac12a7c7ac89247b4d6d1e7bf1cf92e6de05d42a66662ff51c2857445"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/misc/oga-customizable-pumpkins/pumpkin_unpacked/__MACOSX/Pumpkin/Faces/._HappyFaceWithEyes.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "d2c9d7f1de4c335fad2bdbed3063a39b1f51e108b678c59f497b83e74c8d1dba"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/misc/oga-customizable-pumpkins/pumpkin_unpacked/__MACOSX/Pumpkin/Faces/._Circley.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "30695d520682564f04c7453cdf91fadb2789ddc7d274864ae3baab594b4bccd8"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/misc/oga-customizable-pumpkins/pumpkin_unpacked/__MACOSX/Pumpkin/Faces/._Monster.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "da7c4990084aeb27cefa67a6d672fcb41c4fff5cda9a0a56e1b5e1e5e209f24f"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/misc/oga-customizable-pumpkins/pumpkin_unpacked/__MACOSX/Pumpkin/Faces/._SadFaceWithEyes.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "ea15363501b2255db8d472ffc0939b4487fd8c2c05411f8d845aaecbf735d7d1"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/misc/oga-customizable-pumpkins/pumpkin_unpacked/__MACOSX/Pumpkin/Faces/._YA.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "02679d5a8dd97548a00d1b5b417a92e4af7d8ec47ee2f3874846a86a68fd6fb3"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/misc/oga-customizable-pumpkins/pumpkin_unpacked/__MACOSX/Pumpkin/Faces/._Spider.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "603f8b28da60b06b4f44c8afa63bf20c4288baa09f8a9a757b5eb2b2c1c841f3"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/misc/oga-customizable-pumpkins/pumpkin_unpacked/__MACOSX/Pumpkin/._MeshGuideLines.tga",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "00cae67a835c85683fc592498a066e5c0a056f2b8756847d24da296d870dabc2"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle6.svg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "2bcd6fdc236f07cdf3e226c756324cb0dbc56f725d51d3ae4b923e99cee27565"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
     "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle7.png",
-    "status": "exclude-unreadable-sidecar",
-    "reason": "Invalid PNG inside a macOS sidecar directory; not a game image",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
     "sha256": "ffb7b3a3865c0bda27d1f852d3d510126e8e9280f292ff8e0b773d1b7f07a9ed"
   },
   {
     "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
     "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle4.png",
-    "status": "exclude-unreadable-sidecar",
-    "reason": "Invalid PNG inside a macOS sidecar directory; not a game image",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
     "sha256": "ffb7b3a3865c0bda27d1f852d3d510126e8e9280f292ff8e0b773d1b7f07a9ed"
   },
   {
     "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
     "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle6.png",
-    "status": "exclude-unreadable-sidecar",
-    "reason": "Invalid PNG inside a macOS sidecar directory; not a game image",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
     "sha256": "ffb7b3a3865c0bda27d1f852d3d510126e8e9280f292ff8e0b773d1b7f07a9ed"
   },
   {
     "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle4.svg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "2bcd6fdc236f07cdf3e226c756324cb0dbc56f725d51d3ae4b923e99cee27565"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle7.svg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "2bcd6fdc236f07cdf3e226c756324cb0dbc56f725d51d3ae4b923e99cee27565"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
     "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle5.png",
-    "status": "exclude-unreadable-sidecar",
-    "reason": "Invalid PNG inside a macOS sidecar directory; not a game image",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
     "sha256": "ffb7b3a3865c0bda27d1f852d3d510126e8e9280f292ff8e0b773d1b7f07a9ed"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle5.svg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "2bcd6fdc236f07cdf3e226c756324cb0dbc56f725d51d3ae4b923e99cee27565"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-country-flags/famfamfam_flag_icons_unpacked/__MACOSX/gif/._me.gif",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "bed8e6801bb2990683d683480eaf22b612a58472e32ea0634dc3cb1c3e9c79c4"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-country-flags/famfamfam_flag_icons_unpacked/__MACOSX/gif/._gb.gif",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "bed8e6801bb2990683d683480eaf22b612a58472e32ea0634dc3cb1c3e9c79c4"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-country-flags/famfamfam_flag_icons_unpacked/__MACOSX/gif/._ao.gif",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "bed8e6801bb2990683d683480eaf22b612a58472e32ea0634dc3cb1c3e9c79c4"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-country-flags/famfamfam_flag_icons_unpacked/__MACOSX/gif/._catalonia.gif",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "bed8e6801bb2990683d683480eaf22b612a58472e32ea0634dc3cb1c3e9c79c4"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-country-flags/famfamfam_flag_icons_unpacked/__MACOSX/gif/._lc.gif",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "bed8e6801bb2990683d683480eaf22b612a58472e32ea0634dc3cb1c3e9c79c4"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-country-flags/famfamfam_flag_icons_unpacked/__MACOSX/gif/._cd.gif",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "bed8e6801bb2990683d683480eaf22b612a58472e32ea0634dc3cb1c3e9c79c4"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-country-flags/famfamfam_flag_icons_unpacked/__MACOSX/gif/._rs.gif",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "bed8e6801bb2990683d683480eaf22b612a58472e32ea0634dc3cb1c3e9c79c4"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-country-flags/famfamfam_flag_icons_unpacked/__MACOSX/gif/._europeanunion.gif",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "bed8e6801bb2990683d683480eaf22b612a58472e32ea0634dc3cb1c3e9c79c4"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-country-flags/famfamfam_flag_icons_unpacked/__MACOSX/png/._europeanunion.png",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "5968dd230bd1e5d8dbb6d3b720285cfe0106a4efe681c36833cb1d2c8dedd4db"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-country-flags/famfamfam_flag_icons_unpacked/__MACOSX/png/._rs.png",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "5968dd230bd1e5d8dbb6d3b720285cfe0106a4efe681c36833cb1d2c8dedd4db"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-country-flags/famfamfam_flag_icons_unpacked/__MACOSX/png/._catalonia.png",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "5968dd230bd1e5d8dbb6d3b720285cfe0106a4efe681c36833cb1d2c8dedd4db"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-country-flags/famfamfam_flag_icons_unpacked/__MACOSX/png/._lc.png",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "5968dd230bd1e5d8dbb6d3b720285cfe0106a4efe681c36833cb1d2c8dedd4db"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-country-flags/famfamfam_flag_icons_unpacked/__MACOSX/png/._me.png",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "5968dd230bd1e5d8dbb6d3b720285cfe0106a4efe681c36833cb1d2c8dedd4db"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-country-flags/famfamfam_flag_icons_unpacked/__MACOSX/png/._gb.png",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "5968dd230bd1e5d8dbb6d3b720285cfe0106a4efe681c36833cb1d2c8dedd4db"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-country-flags/famfamfam_flag_icons_unpacked/__MACOSX/png/._cd.png",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "5968dd230bd1e5d8dbb6d3b720285cfe0106a4efe681c36833cb1d2c8dedd4db"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/ui/oga-country-flags/famfamfam_flag_icons_unpacked/__MACOSX/png/._ao.png",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "5968dd230bd1e5d8dbb6d3b720285cfe0106a4efe681c36833cb1d2c8dedd4db"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-haunted-house/haunted_house_unpacked/__MACOSX/haunted_house/._hauntedhousefront.png",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "a910aa19e14af1ecb7b33925d32888bad54b6d2e30f7d8ad8a53e77e659eeabb"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-haunted-house/haunted_house_unpacked/__MACOSX/haunted_house/._hauntedhouseofffcentre.png",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "87ab1aff34ef4d8034b701ff6a703d1556f3d78ead5a35064e8883fe78b97f70"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-haunted-house/haunted_house_unpacked/__MACOSX/haunted_house/._hauntedhouseback.png",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "5b8b59bf143b2e5e29fc1579493c053bc8122aef7aad6939d7af99d87eb8a951"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-haunted-house/haunted_house_unpacked/__MACOSX/haunted_house/._hauntedhousetexture.tga",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "ddc5af4a1c2ea444f1b762dad82e49beea3df5cfc8faf4d6ccf82a8f5552aa90"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-haunted-house/haunted_house_unpacked/__MACOSX/haunted_house/._hauntedhousetexture.psd",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "5675721e391d92e0d562b2cbf3f867ca688a374abf4048130e142e5453028791"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-14.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "627d379a02c42ea65c0bcce791d3c21b071059e006b7c01db84ec81354f945ca"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-12.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "c7857861902920b086c1597f4f8b017771da1581db25b9d9b81a3a2883a431fa"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-28.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "b577f4994d20d2881c2707c04ce94e47a3ca70cc255de353f7a32f49543589d7"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-13.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "9b73aebe2ca0146adc8eafbfe436edc96e809e3a8e2ddc16b58122802661bf43"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-21.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "89fa8b860d07c7004c73b0272ee4d989c3a60ad17dbc010d4b59594ee7a150e6"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-23.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "a3707b478f9db39c5b94dcf4794521afabe6d4ad6955ce04d0f751b0a33df074"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-36.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "e4f1385ddc77ea81f4db481324c42d9a3d5826f99e1d25e28b9a5aed4ac5d26b"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-19.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "ef6fa3f8a223a4882409e35ec1dc92c4962db0df362111ef3953531226b6d616"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-34.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "16601ffba1e345d6e2dfacbda63776ed6b3d65802d7f932b9d04509356b96446"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-33.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "3866aa748440a8681c96e08f60acdf8d5d2632f4831ab3de3edbe5200e80cade"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-31.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "676c55ed2f64a1bffd29c28ab263902cf67e37461cad2844860443fe94fbcc8f"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-32.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "126a82e7c8059b5661156b0795325ab784ef88e986930e2e5f5011eb4912bd5b"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-17.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "d1593b7f28a678d9f304b449931643a15562fcbe0d0821236f8ff12f827a6dde"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-20.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "0b182a393ba07112da7ed58cd54a16574a7147beb56d3941d2ca2fd0398dd435"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-39.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "db1373272da5095a59936509650da2c91673403ea731c7d2fe0f8f8b763b8b42"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-05.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "bfaa3b08764beb490d3c09a842a981f7c47a1c0bc8a7944a5379dea1019d35cd"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-22.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "a4313290fa44c889f1f697ac21562efe42867f88afb3743947e3d7a9d62060c4"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-03.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "8238efb3dd1e5f1801330e72407bf24744d9516918549902569b5e1a5224079c"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-38.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "c5226724d2435e88eb6cd6d3122f13f2170f5646a534bb8f762dd53bca812c27"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-27.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "9f2e094797a5456a08b044c3aaf595a2aa5d5a0b03d08a18ae4f1e353a093ebe"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-29.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "6d05b1da5c7c873329646cd924e772b5bf36163c44cd16855b71c1c3838c6d8d"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-01.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "46a7c5913a2852e461c4f975d4606d09af7e6186cc710d5a9694e0a546306d93"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-37.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "8949e28ebfb65303cbc973a223a4b1f33bd8db5c256fc0021791116a38c2f5bb"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-35.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "25246c819bcce2e8d62b3eefb51611383df36926a248b4123203d363554ffbce"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-25.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "e6c67fa7bd194ceb9fbdbe5243950d66c965bf3284d867872dc06a2287cca8bf"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-15.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "8e365632045b1f5d42efcab7f9ca80243991a23ae1c550ae4dcb1bb42e3cff53"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-04.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "83ebf5c60049e77101082eb10ef3c1cfa203a32cae3959b1957b712f46e0af4f"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-02.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "e7087471cacbbb4d25d2cbb318491d14deca22c0ea2bb7639ea2d57751e61547"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-24.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "9cd4b2ec570d0c1e33c35e5df4a394983e28ad2dc8fefa85fb8f571b383325f3"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/fantasy/oga-30-authentic-medieval-or-least-old-paintings/30-paintings_unpacked/__MACOSX/._painting-16.jpg",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "935453dde16563d329eceeee7ad12af760a36ef661b660d08cb058d54387d0e3"
+  },
+  {
+    "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+    "path": "tiddybub-2d-assets/sci-fi/oga-3d-pipes/pipes_texture_unpacked/__MACOSX/._pipes_tex.png",
+    "status": "exclude-filesystem-metadata",
+    "reason": "Valid AppleDouble resource-fork data; not a game image",
+    "sha256": "75c0218ec2d442253d3cf2fe6c1c598cf3953b6ddb121fb8450f5a183473c69b"
   },
   {
     "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
     "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle5.ai",
     "status": "exclude-filesystem-metadata",
-    "reason": "AppleDouble resource fork; not Illustrator artwork",
+    "reason": "Valid AppleDouble resource-fork data; not Illustrator artwork",
     "sha256": "a4481229dd2c7ed07874d9c8c14e9d3b3a5430bca733bb51a35aa2e66bdff672"
   },
   {
     "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
     "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle6.ai",
     "status": "exclude-filesystem-metadata",
-    "reason": "AppleDouble resource fork; not Illustrator artwork",
+    "reason": "Valid AppleDouble resource-fork data; not Illustrator artwork",
     "sha256": "04c64ca8a7535450a9571062f9b22ab39b3d983f6a6bdabc2dd6cb43a23ddb9e"
   },
   {
     "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
     "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle4.ai",
     "status": "exclude-filesystem-metadata",
-    "reason": "AppleDouble resource fork; not Illustrator artwork",
+    "reason": "Valid AppleDouble resource-fork data; not Illustrator artwork",
     "sha256": "ca16635423894c8778c12b7f0117648409775aa67da962b76c49c0a6adb9ba33"
   },
   {
     "collection": "work/full-audit/downloads/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
     "path": "tiddybub-2d-assets/ui/oga-4-summoning-circles/summoning_circles_unpacked/__MACOSX/._circle7.ai",
     "status": "exclude-filesystem-metadata",
-    "reason": "AppleDouble resource fork; not Illustrator artwork",
+    "reason": "Valid AppleDouble resource-fork data; not Illustrator artwork",
     "sha256": "23a7542a349ed75f5b3bbcbc1b49a8909c2d93ab338e120a6ed29e4577b50542"
   }
 ]

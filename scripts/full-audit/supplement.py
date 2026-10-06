@@ -20,8 +20,9 @@ def retrieve(r):
    if key not in zip_handles:zip_handles[key]=zipfile.ZipFile(io.BytesIO(zip_handles[parent].read(nested)))
  return zip_handles[origin].read(r['path'])
 
-import concurrent.futures,collections,xml.etree.ElementTree as ET
+import concurrent.futures,collections,xml.etree.ElementTree as ET,threading
 magick=str(Path('work/tooling/render/bin/magick').resolve());env={**os.environ,'OMP_NUM_THREADS':'1','PATH':str(Path('work/tooling/render/bin').resolve())+os.pathsep+os.environ['PATH'],'XDG_CACHE_HOME':str(Path('work/tooling/cache').resolve())}
+read_lock=threading.Lock()
 unique={r['sha256']:r for r in targets}
 # Initialise shared ZIP central directories once, before renderer threads start.
 origins={r['collection']:r for r in targets}
@@ -29,9 +30,10 @@ for r in origins.values():retrieve(r)
 def render(r):
  sha=r['sha256'];ext=Path(r['path']).suffix.lower()[1:]
  try:
-  data=retrieve(r)
+  with read_lock:data=retrieve(r)
+  assert hashlib.sha256(data).hexdigest()==sha,'Archive member hash mismatch'
   if data[:4] in (b'\x00\x05\x16\x07',b'\x00\x05\x16\x00'):
-   return sha,{'passed':True,'classification':'AppleDouble filesystem metadata; not an image'}
+   return sha,{'passed':True,'classification':'AppleDouble filesystem metadata; not an image','source_sha256_confirmed':True}
   viewport={}
   if ext=='svg':
    root=ET.fromstring(data);viewport={'svg_missing_explicit_viewport':not root.get('viewBox') and not (root.get('width') and root.get('height'))}
@@ -40,7 +42,7 @@ def render(r):
   with Image.open(io.BytesIO(p.stdout)) as im:
    im.load();assert im.width>0 and im.height>0
    rgba=im.convert('RGBA');alpha=rgba.getchannel('A');box=alpha.getbbox();visible=bool(box);uniform=not any(hi>lo for lo,hi in rgba.getextrema())
-  return sha,{'passed':True,'render_has_visible_pixels':visible,'render_is_uniform':uniform,'decoder':'ImageMagick 7 / librsvg or format decoder; transparent backdrop',**viewport}
+  return sha,{'passed':True,'source_sha256_confirmed':True,'render_has_visible_pixels':visible,'render_is_uniform':uniform,'decoder':'ImageMagick 7 / librsvg or format decoder; transparent backdrop',**viewport}
  except Exception as e:return sha,{'passed':False,'error':str(e)[:400]}
 cache={}
 with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
