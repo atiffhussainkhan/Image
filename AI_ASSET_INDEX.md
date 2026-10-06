@@ -87,3 +87,7 @@ The [cleaned search gallery](catalog/game-art-search-v2-2026-10-05/README.md) is
 ## Complete file and image audit
 
 The [6 October 2026 audit](catalog/audits/2026-10-06/REPORT.md) checked Image and animation, all 54 Image release files, 104 ZIPs including nested archives, and 408,439 file occurrences. All 110,490 cleaned master images and all 132 animation frames passed. For older/source packs, consult the [safe import policy](catalog/audits/2026-10-06/safe-import-policy.json) and [corrected preview overrides](catalog/audits/2026-10-06/format-overrides.json): stored availability does not certify every member as standalone engine art.
+
+## Catalog completion
+
+All eight formerly unstored packs are now available in the [catalog completion release](https://github.com/atiffhussainkhan/Image/releases/tag/catalog-completion-2026-10-06). Download links, categories and sizes are in the canonical index. [Validation report](catalog/catalog-completion-2026-10-06/REPORT.md).

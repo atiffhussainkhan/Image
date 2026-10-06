@@ -15,10 +15,10 @@
     "rule": "Only entries with availability=stored and stored_copy=true are locally available asset copies. reference_only entries are not stored assets."
   },
   "counts": {
-    "stored_asset_packs": 20,
+    "stored_asset_packs": 28,
     "stored_reference_catalogs": 1,
-    "pending_copy": 3,
-    "reference_only_asset_packs": 5,
+    "pending_copy": 0,
+    "reference_only_asset_packs": 0,
     "reference_only_discovery_sources": 3,
     "reference_only_external_catalogs": 1,
     "stored_metadata_bundles": 1
@@ -690,11 +690,11 @@
       "id": "quaternius-ultimate-animated-character",
       "name": "Ultimate Animated Character Pack",
       "record_type": "asset_pack",
-      "availability": "pending_copy",
-      "stored_copy": false,
-      "release_tag": null,
-      "release_asset": null,
-      "release_url": null,
+      "availability": "stored",
+      "stored_copy": true,
+      "release_tag": "catalog-completion-2026-10-06",
+      "release_asset": "quaternius-ultimate-animated-character.zip",
+      "release_url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/quaternius-ultimate-animated-character.zip",
       "license": "CC0-1.0",
       "source_url": "https://quaternius.com/packs/ultimatedanimatedcharacter.html",
       "categories": [
@@ -711,17 +711,19 @@
         "rigged",
         "animated"
       ],
-      "notes": "Catalogued and download step ran, but no owned archive is present in any release yet."
+      "notes": "Retrieved and integrity checked 2026-10-06; see catalog/catalog-completion-2026-10-06/REPORT.md",
+      "size_bytes": 70848226,
+      "sha256": "a63ad121b36fb277342cf54b8d5e39be720b90b31acb77f835834ff5240a5c3e"
     },
     {
       "id": "quaternius-ultimate-animated-animals",
       "name": "Ultimate Animated Animal Pack",
       "record_type": "asset_pack",
-      "availability": "pending_copy",
-      "stored_copy": false,
-      "release_tag": null,
-      "release_asset": null,
-      "release_url": null,
+      "availability": "stored",
+      "stored_copy": true,
+      "release_tag": "catalog-completion-2026-10-06",
+      "release_asset": "quaternius-ultimate-animated-animals.zip",
+      "release_url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/quaternius-ultimate-animated-animals.zip",
       "license": "CC0-1.0",
       "source_url": "https://quaternius.com/packs/ultimateanimatedanimals.html",
       "categories": [
@@ -736,17 +738,19 @@
         "animals",
         "animated"
       ],
-      "notes": "Catalogued; no owned archive present."
+      "notes": "Retrieved and integrity checked 2026-10-06; see catalog/catalog-completion-2026-10-06/REPORT.md",
+      "size_bytes": 40047112,
+      "sha256": "9904a30582ab736d3a56dbba6431812e9183505ddcbf6ce9c9132ecc14ed00d3"
     },
     {
       "id": "quaternius-animated-mech",
       "name": "Animated Mech Pack",
       "record_type": "asset_pack",
-      "availability": "pending_copy",
-      "stored_copy": false,
-      "release_tag": null,
-      "release_asset": null,
-      "release_url": null,
+      "availability": "stored",
+      "stored_copy": true,
+      "release_tag": "catalog-completion-2026-10-06",
+      "release_asset": "quaternius-animated-mech.zip",
+      "release_url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/quaternius-animated-mech.zip",
       "license": "CC0-1.0",
       "source_url": "https://quaternius.com/packs/animatedmech.html",
       "categories": [
@@ -763,19 +767,21 @@
         "sci-fi",
         "animated"
       ],
-      "notes": "Catalogued; no owned archive present."
+      "notes": "Retrieved and integrity checked 2026-10-06; see catalog/catalog-completion-2026-10-06/REPORT.md",
+      "size_bytes": 83598811,
+      "sha256": "994623a91caf62520add18bf67b7c38450f2500034b49c06b3723b56e1d85cc8"
     },
     {
       "id": "kaykit-dungeon",
       "name": "KayKit Dungeon Pack",
       "record_type": "asset_pack",
-      "availability": "reference_only",
-      "stored_copy": false,
-      "release_tag": null,
-      "release_asset": null,
-      "release_url": null,
+      "availability": "stored",
+      "stored_copy": true,
+      "release_tag": "catalog-completion-2026-10-06",
+      "release_asset": "kaykit-dungeon.zip",
+      "release_url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/kaykit-dungeon.zip",
       "license": "CC0-1.0",
-      "source_url": "https://kaylousberg.itch.io/kaykit-dungeon-pack",
+      "source_url": "https://kaylousberg.itch.io/kaykit-dungeon",
       "categories": [
         "3d",
         "dungeon",
@@ -788,18 +794,20 @@
         "dungeon",
         "environment"
       ],
-      "notes": "Original catalogued pack not stored; remastered dungeon pack is stored separately.",
-      "superseded_by": "kaykit-dungeon-remastered"
+      "notes": "Retrieved and integrity checked 2026-10-06; see catalog/catalog-completion-2026-10-06/REPORT.md",
+      "superseded_by": "kaykit-dungeon-remastered",
+      "size_bytes": 32730796,
+      "sha256": "52cea49b449c4dbe45624234aced1da9f037a8dda7e50a9e0b76536e9dc2d1f8"
     },
     {
       "id": "avramania-nature-terrain",
-      "name": "Nature & Terrain — Free CC0 tier",
+      "name": "Nature & Terrain \u2014 Free CC0 tier",
       "record_type": "asset_pack",
-      "availability": "reference_only",
-      "stored_copy": false,
-      "release_tag": null,
-      "release_asset": null,
-      "release_url": null,
+      "availability": "stored",
+      "stored_copy": true,
+      "release_tag": "catalog-completion-2026-10-06",
+      "release_asset": "avramania-nature-terrain.zip",
+      "release_url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/avramania-nature-terrain.zip",
       "license": "CC0-1.0",
       "source_url": "https://avramania.itch.io/nature-terrain",
       "categories": [
@@ -811,24 +819,26 @@
       ],
       "search_terms": [
         "avramania-nature-terrain",
-        "Nature & Terrain — Free CC0 tier",
+        "Nature & Terrain \u2014 Free CC0 tier",
         "3d",
         "nature",
         "terrain",
         "glb",
         "fbx"
       ],
-      "notes": "Catalogued; host did not yield a directly stored archive in current releases."
+      "notes": "Retrieved and integrity checked 2026-10-06; see catalog/catalog-completion-2026-10-06/REPORT.md",
+      "size_bytes": 3272164,
+      "sha256": "3f9936acf0e5832306f7661a6f1bdd3f01dee7f8a6370a8f306e89976956b72b"
     },
     {
       "id": "mastjie-household-goods",
       "name": "Low poly household goods",
       "record_type": "asset_pack",
-      "availability": "reference_only",
-      "stored_copy": false,
-      "release_tag": null,
-      "release_asset": null,
-      "release_url": null,
+      "availability": "stored",
+      "stored_copy": true,
+      "release_tag": "catalog-completion-2026-10-06",
+      "release_asset": "mastjie-household-goods.zip",
+      "release_url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/mastjie-household-goods.zip",
       "license": "CC0-1.0",
       "source_url": "https://mastjie.itch.io/low-poly-household-goods",
       "categories": [
@@ -847,17 +857,19 @@
         "fbx",
         "gltf"
       ],
-      "notes": "Catalogued; host did not yield a directly stored archive in current releases."
+      "notes": "Retrieved and integrity checked 2026-10-06; see catalog/catalog-completion-2026-10-06/REPORT.md",
+      "size_bytes": 528931,
+      "sha256": "696339c836e035b80d8dd231c0a0e6b15b3155cc5ba53aebb4150371c98ef3b4"
     },
     {
       "id": "barnabe-wild-rigged-character",
       "name": "Low-poly rigged character - CC0",
       "record_type": "asset_pack",
-      "availability": "reference_only",
-      "stored_copy": false,
-      "release_tag": null,
-      "release_asset": null,
-      "release_url": null,
+      "availability": "stored",
+      "stored_copy": true,
+      "release_tag": "catalog-completion-2026-10-06",
+      "release_asset": "barnabe-wild-rigged-character.zip",
+      "release_url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/barnabe-wild-rigged-character.zip",
       "license": "CC0-1.0",
       "source_url": "https://barnabe-wild.itch.io/low-poly-rigged-character",
       "categories": [
@@ -874,17 +886,19 @@
         "rigged",
         "mocap"
       ],
-      "notes": "Catalogued; host did not yield a directly stored archive in current releases."
+      "notes": "Retrieved and integrity checked 2026-10-06; see catalog/catalog-completion-2026-10-06/REPORT.md",
+      "size_bytes": 7435043,
+      "sha256": "3302fbe02060b57961afcb2baf0f92a4479f85c3f085719adb80c54c55e6ac10"
     },
     {
       "id": "jean-charpentier-lowpoly",
       "name": "CC0 LowPoly Packs",
       "record_type": "asset_pack",
-      "availability": "reference_only",
-      "stored_copy": false,
-      "release_tag": null,
-      "release_asset": null,
-      "release_url": null,
+      "availability": "stored",
+      "stored_copy": true,
+      "release_tag": "catalog-completion-2026-10-06",
+      "release_asset": "jean-charpentier-lowpoly.zip",
+      "release_url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/jean-charpentier-lowpoly.zip",
       "license": "CC0-1.0",
       "source_url": "https://jeancharpentier.itch.io/cc0-lowpoly-pack",
       "categories": [
@@ -899,7 +913,9 @@
         "lowpoly",
         "fbx"
       ],
-      "notes": "Catalogued; host did not yield a directly stored archive in current releases."
+      "notes": "Retrieved and integrity checked 2026-10-06; see catalog/catalog-completion-2026-10-06/REPORT.md",
+      "size_bytes": 1914379,
+      "sha256": "c1b96c550f0634ca7391590d5990f87d694696034f1b1797032e34a6f6044959"
     },
     {
       "id": "poly-haven",

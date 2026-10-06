@@ -5,14 +5,14 @@
     "creator": "Quaternius",
     "license": "CC0-1.0",
     "source_url": "https://quaternius.com/packs/ultimatedanimatedcharacter.html",
-    "download_url": "https://drive.google.com/drive/folders/1sNi1AfenfPRrvRt5yfaj5QMMd6KKcUJ5?usp=sharing",
+    "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/quaternius-ultimate-animated-character.zip",
     "tags": [
       "3d",
       "characters",
       "rigged",
       "animated"
     ],
-    "notes": "50+ animated characters; FBX/OBJ/Blend; core saved pack"
+    "notes": "Stored verified archive; retrieved from official creator distribution 2026-10-06."
   },
   {
     "id": "opengameart-modular-vector-characters",
@@ -68,7 +68,9 @@
       "3d",
       "animals",
       "animated"
-    ]
+    ],
+    "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/quaternius-ultimate-animated-animals.zip",
+    "notes": "Stored verified archive; retrieved from official creator distribution 2026-10-06."
   },
   {
     "id": "quaternius-animated-mech",
@@ -81,7 +83,9 @@
       "mech",
       "sci-fi",
       "animated"
-    ]
+    ],
+    "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/quaternius-animated-mech.zip",
+    "notes": "Stored verified archive; retrieved from official creator distribution 2026-10-06."
   },
   {
     "id": "kaykit-adventurers",
@@ -114,16 +118,18 @@
     "name": "KayKit Dungeon Pack",
     "creator": "Kay Lousberg",
     "license": "CC0-1.0",
-    "source_url": "https://kaylousberg.itch.io/kaykit-dungeon-pack",
+    "source_url": "https://kaylousberg.itch.io/kaykit-dungeon",
     "tags": [
       "3d",
       "dungeon",
       "environment"
-    ]
+    ],
+    "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/kaykit-dungeon.zip",
+    "notes": "Stored verified archive; retrieved from official creator distribution 2026-10-06."
   },
   {
     "id": "avramania-nature-terrain",
-    "name": "Nature & Terrain — Free CC0 tier",
+    "name": "Nature & Terrain \u2014 Free CC0 tier",
     "creator": "Avramania",
     "license": "CC0-1.0",
     "source_url": "https://avramania.itch.io/nature-terrain",
@@ -134,7 +140,9 @@
       "glb",
       "fbx"
     ],
-    "size_mb": 3.1
+    "size_mb": 3.1,
+    "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/avramania-nature-terrain.zip",
+    "notes": "Stored verified archive; retrieved from official creator distribution 2026-10-06."
   },
   {
     "id": "mastjie-household-goods",
@@ -149,7 +157,9 @@
       "fbx",
       "gltf"
     ],
-    "size_mb": 0.512
+    "size_mb": 0.512,
+    "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/mastjie-household-goods.zip",
+    "notes": "Stored verified archive; retrieved from official creator distribution 2026-10-06."
   },
   {
     "id": "barnabe-wild-rigged-character",
@@ -163,7 +173,9 @@
       "rigged",
       "mocap"
     ],
-    "size_mb": 7.1
+    "size_mb": 7.1,
+    "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/barnabe-wild-rigged-character.zip",
+    "notes": "Stored verified archive; retrieved from official creator distribution 2026-10-06."
   },
   {
     "id": "jean-charpentier-lowpoly",
@@ -176,7 +188,9 @@
       "lowpoly",
       "fbx"
     ],
-    "size_mb": 1.692
+    "size_mb": 1.692,
+    "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/jean-charpentier-lowpoly.zip",
+    "notes": "Stored verified archive; retrieved from official creator distribution 2026-10-06."
   },
   {
     "id": "series-ai-jam-ready-assets",

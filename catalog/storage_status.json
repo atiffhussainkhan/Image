@@ -278,48 +278,110 @@
         "catalog",
         "reference"
       ]
-    }
-  ],
-  "unresolved_catalogued": [
-    {
-      "id": "quaternius-ultimate-animated-character",
-      "status": "not_in_release",
-      "reason": "Catalogued and download step ran, but no owned archive is present in any release yet."
-    },
-    {
-      "id": "quaternius-ultimate-animated-animals",
-      "status": "not_in_release",
-      "reason": "Catalogued; no owned archive present."
-    },
-    {
-      "id": "quaternius-animated-mech",
-      "status": "not_in_release",
-      "reason": "Catalogued; no owned archive present."
-    },
-    {
-      "id": "kaykit-dungeon",
-      "status": "not_in_release",
-      "reason": "Original catalogued pack not stored; remastered dungeon pack is stored separately."
     },
     {
       "id": "avramania-nature-terrain",
-      "status": "not_in_release",
-      "reason": "Catalogued; host did not yield a directly stored archive in current releases."
-    },
-    {
-      "id": "mastjie-household-goods",
-      "status": "not_in_release",
-      "reason": "Catalogued; host did not yield a directly stored archive in current releases."
+      "release": "catalog-completion-2026-10-06",
+      "release_asset": "avramania-nature-terrain.zip",
+      "size_bytes": 3272164,
+      "sha256": "3f9936acf0e5832306f7661a6f1bdd3f01dee7f8a6370a8f306e89976956b72b",
+      "tags": [
+        "3d",
+        "nature",
+        "terrain",
+        "glb",
+        "fbx"
+      ]
     },
     {
       "id": "barnabe-wild-rigged-character",
-      "status": "not_in_release",
-      "reason": "Catalogued; host did not yield a directly stored archive in current releases."
+      "release": "catalog-completion-2026-10-06",
+      "release_asset": "barnabe-wild-rigged-character.zip",
+      "size_bytes": 7435043,
+      "sha256": "3302fbe02060b57961afcb2baf0f92a4479f85c3f085719adb80c54c55e6ac10",
+      "tags": [
+        "3d",
+        "character",
+        "rigged",
+        "mocap"
+      ]
     },
     {
       "id": "jean-charpentier-lowpoly",
-      "status": "not_in_release",
-      "reason": "Catalogued; host did not yield a directly stored archive in current releases."
+      "release": "catalog-completion-2026-10-06",
+      "release_asset": "jean-charpentier-lowpoly.zip",
+      "size_bytes": 1914379,
+      "sha256": "c1b96c550f0634ca7391590d5990f87d694696034f1b1797032e34a6f6044959",
+      "tags": [
+        "3d",
+        "lowpoly",
+        "fbx"
+      ]
+    },
+    {
+      "id": "kaykit-dungeon",
+      "release": "catalog-completion-2026-10-06",
+      "release_asset": "kaykit-dungeon.zip",
+      "size_bytes": 32730796,
+      "sha256": "52cea49b449c4dbe45624234aced1da9f037a8dda7e50a9e0b76536e9dc2d1f8",
+      "tags": [
+        "3d",
+        "dungeon",
+        "environment"
+      ]
+    },
+    {
+      "id": "mastjie-household-goods",
+      "release": "catalog-completion-2026-10-06",
+      "release_asset": "mastjie-household-goods.zip",
+      "size_bytes": 528931,
+      "sha256": "696339c836e035b80d8dd231c0a0e6b15b3155cc5ba53aebb4150371c98ef3b4",
+      "tags": [
+        "3d",
+        "props",
+        "interior",
+        "fbx",
+        "gltf"
+      ]
+    },
+    {
+      "id": "quaternius-animated-mech",
+      "release": "catalog-completion-2026-10-06",
+      "release_asset": "quaternius-animated-mech.zip",
+      "size_bytes": 83598811,
+      "sha256": "994623a91caf62520add18bf67b7c38450f2500034b49c06b3723b56e1d85cc8",
+      "tags": [
+        "3d",
+        "mech",
+        "sci-fi",
+        "animated"
+      ]
+    },
+    {
+      "id": "quaternius-ultimate-animated-animals",
+      "release": "catalog-completion-2026-10-06",
+      "release_asset": "quaternius-ultimate-animated-animals.zip",
+      "size_bytes": 40047112,
+      "sha256": "9904a30582ab736d3a56dbba6431812e9183505ddcbf6ce9c9132ecc14ed00d3",
+      "tags": [
+        "3d",
+        "animals",
+        "animated"
+      ]
+    },
+    {
+      "id": "quaternius-ultimate-animated-character",
+      "release": "catalog-completion-2026-10-06",
+      "release_asset": "quaternius-ultimate-animated-character.zip",
+      "size_bytes": 70848226,
+      "sha256": "a63ad121b36fb277342cf54b8d5e39be720b90b31acb77f835834ff5240a5c3e",
+      "tags": [
+        "3d",
+        "characters",
+        "rigged",
+        "animated"
+      ]
     }
-  ]
+  ],
+  "unresolved_catalogued": []
 }
