@@ -1,0 +1,46 @@
+name: Validate existing and acquire new animation packs
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/validate-asset-acquisition.yml"
+      - "scripts/validate_acquired_packs.py"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  acquire-validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install image validation
+        run: python3 -m pip install Pillow
+      - name: Fetch real animation ZIP from official OpenGameArt
+        shell: bash
+        run: |
+          mkdir -p staging/new-packs
+          curl --fail --location --retry 3 --max-time 180 "https://opengameart.org/sites/default/files/kaykit_character_animations_1.2.zip" -o staging/new-packs/oga-kaykit-character-animations.zip
+          test $(stat -c%s staging/new-packs/oga-kaykit-character-animations.zip) -gt 10000
+      - name: Check every contained raster and file
+        run: |
+          python3 scripts/validate_acquired_packs.py staging/new-packs --out catalog/acquired-validation-report.json
+      - name: Publish validated pack to separate staged release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG=asset-validation-2026-10-25
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" staging/new-packs/*.zip --clobber
+          else
+            gh release create "$TAG" staging/new-packs/*.zip --title "Validated game art — staged, not engine certified" --notes "Downloaded official OpenGameArt archive; checksummed, ZIP checked and raster decoded. Gameplay engine and rights verification still required."
+          fi
+      - name: Commit searchable per-file records
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog/acquired-validation-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record validated downloaded animation archive and searchable members"
+            git push
+          fi
