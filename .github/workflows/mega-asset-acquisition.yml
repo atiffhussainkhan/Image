@@ -22,8 +22,8 @@ jobs:
           - { id: "06-modern", repo: "Tiddybub/2d-assets", folder: "modern-urban" }
           - { id: "07-vfx", repo: "Tiddybub/2d-assets", folder: "effects" }
           - { id: "08-tiles", repo: "Tiddybub/2d-assets", folder: "tiles-terrain" }
-          - { id: "09-pixel-asset-library", repo: "SpriteCook/spritecook-free-game-assets", folder: "examples" }
-          - { id: "10-kenney-collection", repo: "eturner58/game-assets", folder: "kenney" }
+          - { id: "09-pixel-asset-library", repo: "shorepine/kenney", folder: "2d" }
+          - { id: "10-kenney-collection", repo: "shorepine/kenney", folder: "3d" }
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
@@ -37,7 +37,7 @@ jobs:
         run: |
           git clone --depth 1 --filter=blob:none --sparse "https://github.com/$SRC.git" acquisition-source
           cd acquisition-source
-          git sparse-checkout set "$FOLDER" README.md LICENSE LICENSE.md
+          git sparse-checkout set "$FOLDER"
           test -d "$FOLDER"
           git lfs pull --include="$FOLDER/**" || true
       - name: Package and verify actual binary content
