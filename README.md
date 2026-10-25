@@ -62,3 +62,7 @@ All eight formerly unstored packs are now available in the [catalog completion r
 ## Newly discovered asset candidates (not yet approved)
 
 See [24 search leads](catalog/new-asset-candidates-2026-10-25.json) and [safe import policy](docs/NEW_ASSET_IMPORT_POLICY.md). Search across candidate leads, GitHub Release file names, and existing cleaned-image records with `python3 scripts/search_game_assets.py "animated character" --scope all`. Candidate URLs are **not** downloaded assets. Do not count these as functional or licence-approved packs. Full binary accessibility requires downloading relevant GitHub Release attachments or source packs.
+
+## New bulk asset library — uploaded and searchable (2026-10-25)
+
+**10 actual ZIP archives (1,065,300,832 bytes) and ten JSON inventories are stored in [the mega-acquisition Release](https://github.com/atiffhussainkhan/Image/releases/tag/mega-acquisition-2026-10-25).** A successful GitHub Actions indexing run created [bulk-acquisition-summary.json](catalog/bulk-acquisition-summary.json) and `catalog/bulk-acquisition-assets.jsonl.gz` covering **79,337 asset-file records**. Search locally with `python3 scripts/search_game_assets.py "dragon" --scope bulk`. Search returns paths and exact owning ZIP URLs: the ZIP must be downloaded and extracted to get pixels/models. The ingest validator reported 45 excluded invalid/oversize entries. Raster files were decoder-checked; engine playback and per-pack licence approval are NOT certified. Keep these as staged assets until relevant validation is completed.
