@@ -58,3 +58,7 @@ The [6 October 2026 audit](catalog/audits/2026-10-06/REPORT.md) checked Image an
 ## Catalog completion
 
 All eight formerly unstored packs are now available in the [catalog completion release](https://github.com/atiffhussainkhan/Image/releases/tag/catalog-completion-2026-10-06). Download links, categories and sizes are in the canonical index. [Validation report](catalog/catalog-completion-2026-10-06/REPORT.md).
+
+## Newly discovered asset candidates (not yet approved)
+
+See [24 search leads](catalog/new-asset-candidates-2026-10-25.json) and [safe import policy](docs/NEW_ASSET_IMPORT_POLICY.md). Search across candidate leads, GitHub Release file names, and existing cleaned-image records with `python3 scripts/search_game_assets.py "animated character" --scope all`. Candidate URLs are **not** downloaded assets. Do not count these as functional or licence-approved packs. Full binary accessibility requires downloading relevant GitHub Release attachments or source packs.
