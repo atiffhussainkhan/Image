@@ -1,5 +1,8 @@
 # AI Asset Index
 
+> **CRITICAL FOR AI AGENTS:** Searching this Git tree alone shows only ~440 MB, NOT the 13.89 GB in GitHub Releases. Start with [ASSET_ACCESS.md](ASSET_ACCESS.md) and [catalog/ALL_RELEASE_ASSETS.json](catalog/ALL_RELEASE_ASSETS.json). Download the needed release attachments and extract the archive before claiming access to actual images. The historical cleaned-image audit confirms technical decoding, not universal commercial reuse rights or engine compatibility.
+
+
 **Canonical machine-readable search index:** `catalog/MASTER_ASSET_INDEX.json`
 
 **Crawler-friendly table:** `catalog/MASTER_ASSET_INDEX.csv`
