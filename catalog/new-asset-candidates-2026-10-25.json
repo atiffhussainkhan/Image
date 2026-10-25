@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "generated": "2026-10-25",
+  "warning": "24 discovery leads. No artwork binaries downloaded or approved.",
+  "items": [
+    {
+      "id": "lead-001",
+      "title": "Pixel Frog Pixel Adventure",
+      "category": "2d-platformer",
+      "source_url": "https://pixelfrog-assets.itch.io/pixel-adventure-1",
+      "claimed_license": "CC0",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "sprite",
+        "animation",
+        "platform",
+        "characters"
+      ]
+    },
+    {
+      "id": "lead-002",
+      "title": "Ansimuz Sunny Land",
+      "category": "2d-platformer",
+      "source_url": "https://ansimuz.itch.io/sunny-land-pixel-game-art",
+      "claimed_license": "CC0",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "animations",
+        "background",
+        "effects"
+      ]
+    },
+    {
+      "id": "lead-003",
+      "title": "Ansimuz SunnyLand Forest",
+      "category": "2d-platformer",
+      "source_url": "https://ansimuz.itch.io/sunnyland-forest",
+      "claimed_license": "CC0",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "tiles",
+        "animated",
+        "sprites"
+      ]
+    },
+    {
+      "id": "lead-004",
+      "title": "0x72 DungeonTileset II",
+      "category": "2d-topdown",
+      "source_url": "https://0x72.itch.io/dungeontileset-ii",
+      "claimed_license": "CC0",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "dungeon",
+        "animated",
+        "characters"
+      ]
+    },
+    {
+      "id": "lead-005",
+      "title": "0x72 Dungeon Tileset",
+      "category": "2d-topdown",
+      "source_url": "https://0x72.itch.io/16x16-dungeon-tileset",
+      "claimed_license": "CC0",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "dungeon",
+        "sprites"
+      ]
+    },
+    {
+      "id": "lead-006",
+      "title": "Kenney Platformer Characters",
+      "category": "2d-characters",
+      "source_url": "https://kenney.nl/assets/platformer-characters",
+      "claimed_license": "CC0",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "platformer",
+        "characters"
+      ]
+    },
+    {
+      "id": "lead-007",
+      "title": "Kenney Animated Characters Retro",
+      "category": "3d-characters",
+      "source_url": "https://kenney.nl/assets/animated-characters-retro",
+      "claimed_license": "CC0",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "animated",
+        "models"
+      ]
+    },
+    {
+      "id": "lead-008",
+      "title": "Kenney Mini Characters",
+      "category": "3d-characters",
+      "source_url": "https://kenney.nl/assets/mini-characters",
+      "claimed_license": "CC0",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "animated",
+        "models"
+      ]
+    },
+    {
+      "id": "lead-009",
+      "title": "Quaternius Universal Base Characters",
+      "category": "3d-rigs",
+      "source_url": "https://quaternius.com/packs/universalbasecharacters.html",
+      "claimed_license": "CC0",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "rigged",
+        "humanoids"
+      ]
+    },
+    {
+      "id": "lead-010",
+      "title": "Quaternius Universal Animation Library",
+      "category": "3d-animation",
+      "source_url": "https://quaternius.com/packs/universalanimationlibrary.html",
+      "claimed_license": "CC0",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "animations",
+        "humanoid",
+        "movement"
+      ]
+    },
+    {
+      "id": "lead-011",
+      "title": "Quaternius RPG Character Pack",
+      "category": "3d-rigs",
+      "source_url": "https://quaternius.com/packs/rpgcharacters.html",
+      "claimed_license": "CC0",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "animated",
+        "fantasy",
+        "models"
+      ]
+    },
+    {
+      "id": "lead-012",
+      "title": "Kenney Particle Pack",
+      "category": "2d-vfx",
+      "source_url": "https://kenney.nl/assets/particle-pack",
+      "claimed_license": "CC0",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "particle",
+        "sprites"
+      ]
+    },
+    {
+      "id": "lead-013",
+      "title": "Kenney Smoke Particles",
+      "category": "2d-vfx",
+      "source_url": "https://kenney.nl/assets/smoke-particles",
+      "claimed_license": "CC0",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "smoke",
+        "sprites"
+      ]
+    },
+    {
+      "id": "lead-014",
+      "title": "Kenney Pixel Platformer",
+      "category": "2d-environments",
+      "source_url": "https://kenney.nl/assets/pixel-platformer",
+      "claimed_license": "CC0",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "pixel",
+        "tiles",
+        "environment"
+      ]
+    },
+    {
+      "id": "lead-015",
+      "title": "Kenney Platformer Art Packs",
+      "category": "2d-environments",
+      "source_url": "https://kenney.nl/assets?search=platform",
+      "claimed_license": "mixed",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "collection",
+        "listing"
+      ]
+    },
+    {
+      "id": "lead-016",
+      "title": "Poly Haven",
+      "category": "3d-environments",
+      "source_url": "https://polyhaven.com",
+      "claimed_license": "CC0",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "textures",
+        "HDRI",
+        "models",
+        "collection"
+      ]
+    },
+    {
+      "id": "lead-017",
+      "title": "Quaternius Nature and Environment",
+      "category": "3d-environments",
+      "source_url": "https://quaternius.com/",
+      "claimed_license": "mixed",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "environment",
+        "collection"
+      ]
+    },
+    {
+      "id": "lead-018",
+      "title": "AutoSprite Free Game Art",
+      "category": "2d-sprites",
+      "source_url": "https://www.autosprite.io/free",
+      "claimed_license": "unverified",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "sprite",
+        "JSON",
+        "art"
+      ]
+    },
+    {
+      "id": "lead-019",
+      "title": "OpenGameArt Library",
+      "category": "all-categories",
+      "source_url": "https://opengameart.org/",
+      "claimed_license": "mixed",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "2d",
+        "3d",
+        "audio",
+        "collection"
+      ]
+    },
+    {
+      "id": "lead-020",
+      "title": "Liberated Pixel Cup",
+      "category": "2d-topdown",
+      "source_url": "https://lpc.opengameart.org/lpc-art-entries",
+      "claimed_license": "CC-BY-SA",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "layered",
+        "sprites",
+        "requires",
+        "attribution"
+      ]
+    },
+    {
+      "id": "lead-021",
+      "title": "Kenney Game Asset Index",
+      "category": "all-categories",
+      "source_url": "https://kenney.nl/assets",
+      "claimed_license": "CC0",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "collection",
+        "listing"
+      ]
+    },
+    {
+      "id": "lead-022",
+      "title": "Tiddybub Curated 2D Assets",
+      "category": "2d-curated",
+      "source_url": "https://github.com/Tiddybub/2d-assets",
+      "claimed_license": "unverified",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "curated",
+        "github",
+        "links"
+      ]
+    },
+    {
+      "id": "lead-023",
+      "title": "Free Game Dev Assets Catalogue",
+      "category": "all-categories",
+      "source_url": "https://github.com/TMHSDigital/Free-Game-Dev-Assets",
+      "claimed_license": "mixed",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "curated",
+        "github",
+        "links"
+      ]
+    },
+    {
+      "id": "lead-024",
+      "title": "itch.io Free Animated Sprites",
+      "category": "2d-sprites",
+      "source_url": "https://itch.io/game-assets/free/tag-2d/tag-animation/tag-sprites",
+      "claimed_license": "mixed",
+      "license_status": "requires_individual_download_terms_verification",
+      "binary_status": "not_downloaded",
+      "animation_validation": "not_tested",
+      "engine_import": "not_tested",
+      "approval": "candidate_only",
+      "tags": [
+        "collection",
+        "listing"
+      ]
+    }
+  ]
+}
