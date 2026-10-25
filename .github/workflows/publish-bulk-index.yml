@@ -1,0 +1,32 @@
+name: Publish searchable bulk asset index
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/publish-bulk-index.yml"
+      - "scripts/build_bulk_search_index.py"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch validated bulk inventories from owned GitHub Releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p incoming
+          gh release download mega-acquisition-2026-10-25 --pattern '*.json' --dir incoming
+          test "$(find incoming -name '*.json' | wc -l)" -eq 10
+      - name: Build searchable member records
+        run: python3 scripts/build_bulk_search_index.py incoming catalog/bulk-acquisition-assets.jsonl.gz
+      - name: Commit search index
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog/bulk-acquisition-assets.jsonl.gz catalog/bulk-acquisition-summary.json
+          git commit -m "Publish indexed bulk asset members from validated releases"
+          git pull --rebase origin main
+          git push
