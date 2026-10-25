@@ -1,0 +1,39 @@
+name: Acquire Pixel Adventure and validate pack
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/acquire-pixel-adventure.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install Pillow
+      - name: Download source archive
+        run: |
+          mkdir -p staging/new-packs
+          curl --fail --location --retry 4 --retry-delay 3 --max-time 180 --user-agent "Mozilla/5.0" 'https://opengameart.org/sites/default/files/Pixel%20Adventure%201.zip' -o staging/new-packs/pixel-frog-pixel-adventure-1.zip
+          test "$(stat -c%s staging/new-packs/pixel-frog-pixel-adventure-1.zip)" -gt 10000
+      - name: Validate downloaded binary and create searchable records
+        run: python3 scripts/validate_acquired_packs.py staging/new-packs --out catalog/pixel-adventure-acquisition.json
+      - name: Stage archive in owned GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG=staged-pixel-adventure-2026-10-25
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" staging/new-packs/*.zip --clobber
+          else
+            gh release create "$TAG" staging/new-packs/*.zip --title "Staged Pixel Adventure art — integrity tested" --notes "Original author Pixel Frog. Source OpenGameArt ZIP. Creator itch.io lists CC0, mirror lists CC-BY 4.0: licence terms require reconciliation. ZIP and raster integrity tested; NOT gameplay-engine certified."
+          fi
+      - name: Commit exact verified inventory
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog/pixel-adventure-acquisition.json
+          git commit -m "Record verified Pixel Adventure archive inventory"
+          git push
