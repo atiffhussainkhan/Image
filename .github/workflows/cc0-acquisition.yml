@@ -1,0 +1,21 @@
+name: Curated CC0 acquisition audit
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  acquire-and-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate and acquire explicitly approved sources
+        run: python3 scripts/acquire_cc0.py catalog/approved-acquisition.csv --output "${RUNNER_TEMP}/asset-review"
+      - name: Upload review report only
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cc0-audit
+          path: ${{ runner.temp }}/asset-review/audit.json
+          if-no-files-found: warn
+# Never auto-release unverified third-party binaries. Review rights and checksums first.
