@@ -1,437 +1,660 @@
 {
-  "schema_version": 1,
-  "repository": "atiffhussainkhan/Image",
-  "description": "Complete GitHub Releases discovery map (stored archives and supplemental metadata, NOT uncompressed distinct art)",
-  "generated_from": "GitHub Releases API",
-  "main_branch_files_not_included": true,
-  "releases": [
+ "schema_version": 1,
+ "repository": "atiffhussainkhan/Image",
+ "description": "Complete GitHub Releases discovery map (stored archives and supplemental metadata, NOT uncompressed distinct art)",
+ "generated_from": "GitHub Releases API",
+ "main_branch_files_not_included": true,
+ "releases": [
+  {
+   "tag": "staged-pixel-adventure-2026-10-25",
+   "url": "https://github.com/atiffhussainkhan/Image/releases/tag/staged-pixel-adventure-2026-10-25",
+   "assets": [
     {
-      "tag": "catalog-completion-2026-10-06",
-      "url": "https://github.com/atiffhussainkhan/Image/releases/tag/catalog-completion-2026-10-06",
-      "assets": [
-        {
-          "name": "avramania-nature-terrain.zip",
-          "bytes": 3272164,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/avramania-nature-terrain.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "barnabe-wild-rigged-character.zip",
-          "bytes": 7435043,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/barnabe-wild-rigged-character.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "jean-charpentier-lowpoly.zip",
-          "bytes": 1914379,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/jean-charpentier-lowpoly.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "kaykit-dungeon.zip",
-          "bytes": 32730796,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/kaykit-dungeon.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "mastjie-household-goods.zip",
-          "bytes": 528931,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/mastjie-household-goods.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "quaternius-animated-mech.zip",
-          "bytes": 83598811,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/quaternius-animated-mech.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "quaternius-ultimate-animated-animals.zip",
-          "bytes": 40047112,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/quaternius-ultimate-animated-animals.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "quaternius-ultimate-animated-character.zip",
-          "bytes": 70848226,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/quaternius-ultimate-animated-character.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "REPORT.md",
-          "bytes": 1064,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/REPORT.md",
-          "content_type": "application/octet-stream"
-        },
-        {
-          "name": "SHA256SUMS.txt",
-          "bytes": 780,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/SHA256SUMS.txt",
-          "content_type": "text/plain; charset=utf-8"
-        },
-        {
-          "name": "validation.json",
-          "bytes": 355095,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/validation.json",
-          "content_type": "application/json"
-        }
-      ]
-    },
-    {
-      "tag": "workplace-art-unverified-2026-10-05",
-      "url": "https://github.com/atiffhussainkhan/Image/releases/tag/workplace-art-unverified-2026-10-05",
-      "assets": [
-        {
-          "name": "10000.HighDefinition.PNG.Icon.Pack.rar",
-          "bytes": 252522021,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/workplace-art-unverified-2026-10-05/10000.HighDefinition.PNG.Icon.Pack.rar",
-          "content_type": "application/x-rar-compressed"
-        },
-        {
-          "name": "assets.csv",
-          "bytes": 22258592,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/workplace-art-unverified-2026-10-05/assets.csv",
-          "content_type": "text/csv; charset=utf-8"
-        },
-        {
-          "name": "assets.json.gz",
-          "bytes": 6510921,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/workplace-art-unverified-2026-10-05/assets.json.gz",
-          "content_type": "application/gzip"
-        },
-        {
-          "name": "Clipart.tar",
-          "bytes": 644826624,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/workplace-art-unverified-2026-10-05/Clipart.tar",
-          "content_type": "application/x-tar"
-        },
-        {
-          "name": "EPS_Clipart.rar",
-          "bytes": 1151992007,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/workplace-art-unverified-2026-10-05/EPS_Clipart.rar",
-          "content_type": "application/x-rar-compressed"
-        },
-        {
-          "name": "README.md",
-          "bytes": 4055,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/workplace-art-unverified-2026-10-05/README.md",
-          "content_type": "application/octet-stream"
-        },
-        {
-          "name": "Samples.rar",
-          "bytes": 151060750,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/workplace-art-unverified-2026-10-05/Samples.rar",
-          "content_type": "application/x-rar-compressed"
-        }
-      ]
-    },
-    {
-      "tag": "mega-assets-v1",
-      "url": "https://github.com/atiffhussainkhan/Image/releases/tag/mega-assets-v1",
-      "assets": [
-        {
-          "name": "failed-sources.txt",
-          "bytes": 960,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/failed-sources.txt",
-          "content_type": "text/plain; charset=utf-8"
-        },
-        {
-          "name": "image-mega-repo-metadata.zip",
-          "bytes": 12526301,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/image-mega-repo-metadata.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "jam-ready-assets.zip",
-          "bytes": 1533150036,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/jam-ready-assets.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "kaykit-adventurers.zip",
-          "bytes": 30504058,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/kaykit-adventurers.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "kaykit-character-animations-1.2.zip",
-          "bytes": 7959257,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/kaykit-character-animations-1.2.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "kaykit-skeletons.zip",
-          "bytes": 28735557,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/kaykit-skeletons.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "opengameart-knight-princess-dragon-2.zip",
-          "bytes": 63827977,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/opengameart-knight-princess-dragon-2.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "opengameart-modular-vector-characters.zip",
-          "bytes": 71527593,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/opengameart-modular-vector-characters.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "SHA256SUMS.txt",
-          "bytes": 880,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/SHA256SUMS.txt",
-          "content_type": "text/plain; charset=utf-8"
-        }
-      ]
-    },
-    {
-      "tag": "mega-assets-expansion-v2",
-      "url": "https://github.com/atiffhussainkhan/Image/releases/tag/mega-assets-expansion-v2",
-      "assets": [
-        {
-          "name": "kaykit-city-builder.zip",
-          "bytes": 5771646,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/kaykit-city-builder.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "kaykit-dungeon-remastered.zip",
-          "bytes": 29808904,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/kaykit-dungeon-remastered.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "kaykit-furniture.zip",
-          "bytes": 4241609,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/kaykit-furniture.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "kaykit-halloween.zip",
-          "bytes": 6486182,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/kaykit-halloween.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "kaykit-medieval-hexagon.zip",
-          "bytes": 36321425,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/kaykit-medieval-hexagon.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "kaykit-prototype-bits.zip",
-          "bytes": 5770284,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/kaykit-prototype-bits.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "oga-3d-character-pack.zip",
-          "bytes": 41743060,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/oga-3d-character-pack.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "papyszoo-cc0-sprites.zip",
-          "bytes": 144498696,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/papyszoo-cc0-sprites.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "tranche2-status.txt",
-          "bytes": 868,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/tranche2-status.txt",
-          "content_type": "text/plain; charset=utf-8"
-        },
-        {
-          "name": "TRANCHE2_SHA256SUMS.txt",
-          "bytes": 958,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/TRANCHE2_SHA256SUMS.txt",
-          "content_type": "text/plain; charset=utf-8"
-        },
-        {
-          "name": "verified-source-catalog.zip",
-          "bytes": 1501012,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/verified-source-catalog.zip",
-          "content_type": "application/zip"
-        }
-      ]
-    },
-    {
-      "tag": "mega-assets-expansion-v1",
-      "url": "https://github.com/atiffhussainkhan/Image/releases/tag/mega-assets-expansion-v1",
-      "assets": [
-        {
-          "name": "cc0tree.zip",
-          "bytes": 11146504,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v1/cc0tree.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "expansion-status.txt",
-          "bytes": 433,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v1/expansion-status.txt",
-          "content_type": "text/plain; charset=utf-8"
-        },
-        {
-          "name": "EXPANSION_SHA256SUMS.txt",
-          "bytes": 610,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v1/EXPANSION_SHA256SUMS.txt",
-          "content_type": "text/plain; charset=utf-8"
-        },
-        {
-          "name": "fps-asset-kit.zip",
-          "bytes": 763813421,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v1/fps-asset-kit.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "fps-buildings-env-kit.zip",
-          "bytes": 319708164,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v1/fps-buildings-env-kit.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "holokat-game-assets.zip",
-          "bytes": 65596546,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v1/holokat-game-assets.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "shorepine-kenney.zip",
-          "bytes": 159448776,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v1/shorepine-kenney.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "tiddybub-2d-assets.zip",
-          "bytes": 1192705116,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
-          "content_type": "application/zip"
-        }
-      ]
-    },
-    {
-      "tag": "game-art-search-v2-2026-10-05",
-      "url": "https://github.com/atiffhussainkhan/Image/releases/tag/game-art-search-v2-2026-10-05",
-      "assets": [
-        {
-          "name": "10000.HighDefinition.PNG.Icon.Pack-cleaned-01.zip",
-          "bytes": 168308686,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/10000.HighDefinition.PNG.Icon.Pack-cleaned-01.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "bundle-manifest.json",
-          "bytes": 3337,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/bundle-manifest.json",
-          "content_type": "application/json"
-        },
-        {
-          "name": "Clipart-cleaned-01.zip",
-          "bytes": 410035662,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/Clipart-cleaned-01.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "EPS_Clipart-cleaned-01.zip",
-          "bytes": 903086623,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/EPS_Clipart-cleaned-01.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "EPS_Clipart-cleaned-02.zip",
-          "bytes": 903094201,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/EPS_Clipart-cleaned-02.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "EPS_Clipart-cleaned-03.zip",
-          "bytes": 903102632,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/EPS_Clipart-cleaned-03.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "EPS_Clipart-cleaned-04.zip",
-          "bytes": 903121671,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/EPS_Clipart-cleaned-04.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "EPS_Clipart-cleaned-05.zip",
-          "bytes": 902994507,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/EPS_Clipart-cleaned-05.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "EPS_Clipart-cleaned-06.zip",
-          "bytes": 755068692,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/EPS_Clipart-cleaned-06.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "game-art-gallery.zip",
-          "bytes": 309743840,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/game-art-gallery.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "game-art-search-data.zip",
-          "bytes": 146195958,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/game-art-search-data.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "game-art-semantic-search.zip",
-          "bytes": 152591320,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/game-art-semantic-search.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "model-provenance.json",
-          "bytes": 1229,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/model-provenance.json",
-          "content_type": "application/json"
-        },
-        {
-          "name": "quality-report.json",
-          "bytes": 548756,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/quality-report.json",
-          "content_type": "application/json"
-        },
-        {
-          "name": "README.md",
-          "bytes": 4798,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/README.md",
-          "content_type": "application/octet-stream"
-        },
-        {
-          "name": "removed-entries.csv",
-          "bytes": 299398,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/removed-entries.csv",
-          "content_type": "text/csv; charset=utf-8"
-        },
-        {
-          "name": "Samples-cleaned-01.zip",
-          "bytes": 428469332,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/Samples-cleaned-01.zip",
-          "content_type": "application/zip"
-        },
-        {
-          "name": "search-bundle-manifest.json",
-          "bytes": 933,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/search-bundle-manifest.json",
-          "content_type": "application/json"
-        },
-        {
-          "name": "verification-report.json",
-          "bytes": 404,
-          "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/verification-report.json",
-          "content_type": "application/json"
-        }
-      ]
+     "name": "pixel-frog-pixel-adventure-1.zip",
+     "bytes": 206398,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/staged-pixel-adventure-2026-10-25/pixel-frog-pixel-adventure-1.zip",
+     "content_type": "application/zip"
     }
-  ],
-  "release_asset_count": 65,
-  "release_bytes": 13893376183
+   ]
+  },
+  {
+   "tag": "mega-acquisition-2026-10-25",
+   "url": "https://github.com/atiffhussainkhan/Image/releases/tag/mega-acquisition-2026-10-25",
+   "assets": [
+    {
+     "name": "01-characters.json",
+     "bytes": 2864827,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/01-characters.json",
+     "content_type": "application/json"
+    },
+    {
+     "name": "01-characters.zip",
+     "bytes": 41742958,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/01-characters.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "02-fantasy.json",
+     "bytes": 3815421,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/02-fantasy.json",
+     "content_type": "application/json"
+    },
+    {
+     "name": "02-fantasy.zip",
+     "bytes": 204720993,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/02-fantasy.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "03-scifi.json",
+     "bytes": 2039629,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/03-scifi.json",
+     "content_type": "application/json"
+    },
+    {
+     "name": "03-scifi.zip",
+     "bytes": 460999774,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/03-scifi.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "04-ui.json",
+     "bytes": 1951121,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/04-ui.json",
+     "content_type": "application/json"
+    },
+    {
+     "name": "04-ui.zip",
+     "bytes": 66035927,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/04-ui.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "05-environments.json",
+     "bytes": 1128399,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/05-environments.json",
+     "content_type": "application/json"
+    },
+    {
+     "name": "05-environments.zip",
+     "bytes": 26567937,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/05-environments.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "06-modern.json",
+     "bytes": 1204673,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/06-modern.json",
+     "content_type": "application/json"
+    },
+    {
+     "name": "06-modern.zip",
+     "bytes": 11388912,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/06-modern.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "07-vfx.json",
+     "bytes": 1854067,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/07-vfx.json",
+     "content_type": "application/json"
+    },
+    {
+     "name": "07-vfx.zip",
+     "bytes": 44848738,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/07-vfx.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "08-tiles.json",
+     "bytes": 3137905,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/08-tiles.json",
+     "content_type": "application/json"
+    },
+    {
+     "name": "08-tiles.zip",
+     "bytes": 65365939,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/08-tiles.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "09-pixel-asset-library.json",
+     "bytes": 16811397,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/09-pixel-asset-library.json",
+     "content_type": "application/json"
+    },
+    {
+     "name": "09-pixel-asset-library.zip",
+     "bytes": 116659259,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/09-pixel-asset-library.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "10-kenney-collection.json",
+     "bytes": 2129480,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/10-kenney-collection.json",
+     "content_type": "application/json"
+    },
+    {
+     "name": "10-kenney-collection.zip",
+     "bytes": 26970395,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/10-kenney-collection.zip",
+     "content_type": "application/zip"
+    }
+   ]
+  },
+  {
+   "tag": "asset-validation-2026-10-25",
+   "url": "https://github.com/atiffhussainkhan/Image/releases/tag/asset-validation-2026-10-25",
+   "assets": [
+    {
+     "name": "oga-kaykit-character-animations.zip",
+     "bytes": 7959257,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/asset-validation-2026-10-25/oga-kaykit-character-animations.zip",
+     "content_type": "application/zip"
+    }
+   ]
+  },
+  {
+   "tag": "asset-bot-tranche-2026-10-25",
+   "url": "https://github.com/atiffhussainkhan/Image/releases/tag/asset-bot-tranche-2026-10-25",
+   "assets": [
+    {
+     "name": "ambientcg-cc0-pbr-materials.zip",
+     "bytes": 120476740,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/asset-bot-tranche-2026-10-25/ambientcg-cc0-pbr-materials.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "archive-org-cc0-texture-sprite-packs.zip",
+     "bytes": 652025382,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/asset-bot-tranche-2026-10-25/archive-org-cc0-texture-sprite-packs.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "cleveland-museum-cc0-artwork.zip",
+     "bytes": 280812676,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/asset-bot-tranche-2026-10-25/cleveland-museum-cc0-artwork.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "game-icons-svg-icon-set.zip",
+     "bytes": 4220517,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/asset-bot-tranche-2026-10-25/game-icons-svg-icon-set.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "godot-asset-library-3d-animation.zip",
+     "bytes": 1605063,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/asset-bot-tranche-2026-10-25/godot-asset-library-3d-animation.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "kenney-cc0-game-art-packs.zip",
+     "bytes": 43063903,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/asset-bot-tranche-2026-10-25/kenney-cc0-game-art-packs.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "lpc-rpg-character-sprites.zip",
+     "bytes": 29681154,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/asset-bot-tranche-2026-10-25/lpc-rpg-character-sprites.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "nasa-public-domain-space-imagery.zip",
+     "bytes": 138559876,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/asset-bot-tranche-2026-10-25/nasa-public-domain-space-imagery.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "opengameart-cc0-2d-art.zip",
+     "bytes": 176766982,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/asset-bot-tranche-2026-10-25/opengameart-cc0-2d-art.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "openverse-cc0-imagery.zip",
+     "bytes": 15713066,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/asset-bot-tranche-2026-10-25/openverse-cc0-imagery.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "polyhaven-cc0-hdris-textures-models.zip",
+     "bytes": 110291185,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/asset-bot-tranche-2026-10-25/polyhaven-cc0-hdris-textures-models.zip",
+     "content_type": "application/zip"
+    }
+   ]
+  },
+  {
+   "tag": "catalog-completion-2026-10-06",
+   "url": "https://github.com/atiffhussainkhan/Image/releases/tag/catalog-completion-2026-10-06",
+   "assets": [
+    {
+     "name": "avramania-nature-terrain.zip",
+     "bytes": 3272164,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/avramania-nature-terrain.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "barnabe-wild-rigged-character.zip",
+     "bytes": 7435043,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/barnabe-wild-rigged-character.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "jean-charpentier-lowpoly.zip",
+     "bytes": 1914379,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/jean-charpentier-lowpoly.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "kaykit-dungeon.zip",
+     "bytes": 32730796,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/kaykit-dungeon.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "mastjie-household-goods.zip",
+     "bytes": 528931,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/mastjie-household-goods.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "quaternius-animated-mech.zip",
+     "bytes": 83598811,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/quaternius-animated-mech.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "quaternius-ultimate-animated-animals.zip",
+     "bytes": 40047112,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/quaternius-ultimate-animated-animals.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "quaternius-ultimate-animated-character.zip",
+     "bytes": 70848226,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/quaternius-ultimate-animated-character.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "REPORT.md",
+     "bytes": 1064,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/REPORT.md",
+     "content_type": "application/octet-stream"
+    },
+    {
+     "name": "SHA256SUMS.txt",
+     "bytes": 780,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/SHA256SUMS.txt",
+     "content_type": "text/plain; charset=utf-8"
+    },
+    {
+     "name": "validation.json",
+     "bytes": 355095,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/catalog-completion-2026-10-06/validation.json",
+     "content_type": "application/json"
+    }
+   ]
+  },
+  {
+   "tag": "workplace-art-unverified-2026-10-05",
+   "url": "https://github.com/atiffhussainkhan/Image/releases/tag/workplace-art-unverified-2026-10-05",
+   "assets": [
+    {
+     "name": "10000.HighDefinition.PNG.Icon.Pack.rar",
+     "bytes": 252522021,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/workplace-art-unverified-2026-10-05/10000.HighDefinition.PNG.Icon.Pack.rar",
+     "content_type": "application/x-rar-compressed"
+    },
+    {
+     "name": "assets.csv",
+     "bytes": 22258592,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/workplace-art-unverified-2026-10-05/assets.csv",
+     "content_type": "text/csv; charset=utf-8"
+    },
+    {
+     "name": "assets.json.gz",
+     "bytes": 6510921,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/workplace-art-unverified-2026-10-05/assets.json.gz",
+     "content_type": "application/gzip"
+    },
+    {
+     "name": "Clipart.tar",
+     "bytes": 644826624,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/workplace-art-unverified-2026-10-05/Clipart.tar",
+     "content_type": "application/x-tar"
+    },
+    {
+     "name": "EPS_Clipart.rar",
+     "bytes": 1151992007,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/workplace-art-unverified-2026-10-05/EPS_Clipart.rar",
+     "content_type": "application/x-rar-compressed"
+    },
+    {
+     "name": "README.md",
+     "bytes": 4055,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/workplace-art-unverified-2026-10-05/README.md",
+     "content_type": "application/octet-stream"
+    },
+    {
+     "name": "Samples.rar",
+     "bytes": 151060750,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/workplace-art-unverified-2026-10-05/Samples.rar",
+     "content_type": "application/x-rar-compressed"
+    }
+   ]
+  },
+  {
+   "tag": "mega-assets-v1",
+   "url": "https://github.com/atiffhussainkhan/Image/releases/tag/mega-assets-v1",
+   "assets": [
+    {
+     "name": "failed-sources.txt",
+     "bytes": 945,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/failed-sources.txt",
+     "content_type": "text/plain; charset=utf-8"
+    },
+    {
+     "name": "image-mega-repo-metadata.zip",
+     "bytes": 416392935,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/image-mega-repo-metadata.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "jam-ready-assets.zip",
+     "bytes": 1905381042,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/jam-ready-assets.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "kaykit-adventurers.zip",
+     "bytes": 30504058,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/kaykit-adventurers.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "kaykit-character-animations-1.2.zip",
+     "bytes": 7959257,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/kaykit-character-animations-1.2.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "kaykit-skeletons.zip",
+     "bytes": 28735557,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/kaykit-skeletons.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "opengameart-knight-princess-dragon-2.zip",
+     "bytes": 63827977,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/opengameart-knight-princess-dragon-2.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "opengameart-modular-vector-characters.zip",
+     "bytes": 71527651,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/opengameart-modular-vector-characters.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "SHA256SUMS.txt",
+     "bytes": 880,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-v1/SHA256SUMS.txt",
+     "content_type": "text/plain; charset=utf-8"
+    }
+   ]
+  },
+  {
+   "tag": "mega-assets-expansion-v2",
+   "url": "https://github.com/atiffhussainkhan/Image/releases/tag/mega-assets-expansion-v2",
+   "assets": [
+    {
+     "name": "kaykit-city-builder.zip",
+     "bytes": 5771646,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/kaykit-city-builder.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "kaykit-dungeon-remastered.zip",
+     "bytes": 29808904,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/kaykit-dungeon-remastered.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "kaykit-furniture.zip",
+     "bytes": 4241609,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/kaykit-furniture.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "kaykit-halloween.zip",
+     "bytes": 6486182,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/kaykit-halloween.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "kaykit-medieval-hexagon.zip",
+     "bytes": 36321425,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/kaykit-medieval-hexagon.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "kaykit-prototype-bits.zip",
+     "bytes": 5770284,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/kaykit-prototype-bits.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "oga-3d-character-pack.zip",
+     "bytes": 41743060,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/oga-3d-character-pack.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "papyszoo-cc0-sprites.zip",
+     "bytes": 144498696,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/papyszoo-cc0-sprites.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "tranche2-status.txt",
+     "bytes": 868,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/tranche2-status.txt",
+     "content_type": "text/plain; charset=utf-8"
+    },
+    {
+     "name": "TRANCHE2_SHA256SUMS.txt",
+     "bytes": 958,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/TRANCHE2_SHA256SUMS.txt",
+     "content_type": "text/plain; charset=utf-8"
+    },
+    {
+     "name": "verified-source-catalog.zip",
+     "bytes": 1501012,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v2/verified-source-catalog.zip",
+     "content_type": "application/zip"
+    }
+   ]
+  },
+  {
+   "tag": "mega-assets-expansion-v1",
+   "url": "https://github.com/atiffhussainkhan/Image/releases/tag/mega-assets-expansion-v1",
+   "assets": [
+    {
+     "name": "cc0tree.zip",
+     "bytes": 11146504,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v1/cc0tree.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "expansion-status.txt",
+     "bytes": 433,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v1/expansion-status.txt",
+     "content_type": "text/plain; charset=utf-8"
+    },
+    {
+     "name": "EXPANSION_SHA256SUMS.txt",
+     "bytes": 610,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v1/EXPANSION_SHA256SUMS.txt",
+     "content_type": "text/plain; charset=utf-8"
+    },
+    {
+     "name": "fps-asset-kit.zip",
+     "bytes": 763813421,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v1/fps-asset-kit.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "fps-buildings-env-kit.zip",
+     "bytes": 319708164,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v1/fps-buildings-env-kit.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "holokat-game-assets.zip",
+     "bytes": 65596546,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v1/holokat-game-assets.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "shorepine-kenney.zip",
+     "bytes": 159448776,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v1/shorepine-kenney.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "tiddybub-2d-assets.zip",
+     "bytes": 1192705116,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-assets-expansion-v1/tiddybub-2d-assets.zip",
+     "content_type": "application/zip"
+    }
+   ]
+  },
+  {
+   "tag": "game-art-search-v2-2026-10-05",
+   "url": "https://github.com/atiffhussainkhan/Image/releases/tag/game-art-search-v2-2026-10-05",
+   "assets": [
+    {
+     "name": "10000.HighDefinition.PNG.Icon.Pack-cleaned-01.zip",
+     "bytes": 168308686,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/10000.HighDefinition.PNG.Icon.Pack-cleaned-01.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "bundle-manifest.json",
+     "bytes": 3337,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/bundle-manifest.json",
+     "content_type": "application/json"
+    },
+    {
+     "name": "Clipart-cleaned-01.zip",
+     "bytes": 410035662,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/Clipart-cleaned-01.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "EPS_Clipart-cleaned-01.zip",
+     "bytes": 903086623,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/EPS_Clipart-cleaned-01.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "EPS_Clipart-cleaned-02.zip",
+     "bytes": 903094201,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/EPS_Clipart-cleaned-02.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "EPS_Clipart-cleaned-03.zip",
+     "bytes": 903102632,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/EPS_Clipart-cleaned-03.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "EPS_Clipart-cleaned-04.zip",
+     "bytes": 903121671,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/EPS_Clipart-cleaned-04.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "EPS_Clipart-cleaned-05.zip",
+     "bytes": 902994507,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/EPS_Clipart-cleaned-05.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "EPS_Clipart-cleaned-06.zip",
+     "bytes": 755068692,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/EPS_Clipart-cleaned-06.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "game-art-gallery.zip",
+     "bytes": 309743840,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/game-art-gallery.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "game-art-search-data.zip",
+     "bytes": 146195958,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/game-art-search-data.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "game-art-semantic-search.zip",
+     "bytes": 152591320,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/game-art-semantic-search.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "model-provenance.json",
+     "bytes": 1229,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/model-provenance.json",
+     "content_type": "application/json"
+    },
+    {
+     "name": "quality-report.json",
+     "bytes": 548756,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/quality-report.json",
+     "content_type": "application/json"
+    },
+    {
+     "name": "README.md",
+     "bytes": 4798,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/README.md",
+     "content_type": "application/octet-stream"
+    },
+    {
+     "name": "removed-entries.csv",
+     "bytes": 299398,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/removed-entries.csv",
+     "content_type": "text/csv; charset=utf-8"
+    },
+    {
+     "name": "Samples-cleaned-01.zip",
+     "bytes": 428469332,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/Samples-cleaned-01.zip",
+     "content_type": "application/zip"
+    },
+    {
+     "name": "search-bundle-manifest.json",
+     "bytes": 933,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/search-bundle-manifest.json",
+     "content_type": "application/json"
+    },
+    {
+     "name": "verification-report.json",
+     "bytes": 404,
+     "url": "https://github.com/atiffhussainkhan/Image/releases/download/game-art-search-v2-2026-10-05/verification-report.json",
+     "content_type": "application/json"
+    }
+   ]
+  }
+ ],
+ "release_asset_count": 98,
+ "release_bytes": 17353093816,
+ "generated_at": "2026-10-25T21:30:00Z"
 }
