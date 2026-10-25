@@ -59,3 +59,23 @@ record.
 The collector lives outside this repository and is not archived here. It reads the
 same licence policy as `docs/LICENSE_POLICY.md`: CC0/public-domain preferred,
 MIT/BSD only with their notice retained, and nothing with unclear terms.
+
+## Themed library bundles
+
+The same files, regrouped by what you would actually look for. These are an alternate
+view of the per-source archives above - the underlying files are identical, so do not
+count them twice. Grab only the bundle you need instead of the full 1.5 GB.
+
+| bundle | size | contains |
+|---|---|---|
+| `character-and-icon-kit.tar.gz` | 225.6 MB | characters, icons, ui, 2d, sprites |
+| `3d-model-kit.tar.gz` | 40.1 MB | 3d, models, props, kits, animation |
+| `world-building-kit.tar.gz` | 479.3 MB | tiles, tilesets, backgrounds, textures, hdris, skyboxes, 2d |
+| `audio-fx-kit.tar.gz` | 152.2 MB | audio, sfx, music |
+
+Inside each bundle the tree is organised by category:
+
+```
+characters/  3d-models/  animation/  textures/  hdris-skyboxes/
+icons-ui/  tiles-sprites/  backgrounds/  audio/  reference/
+```

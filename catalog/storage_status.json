@@ -81,6 +81,58 @@
    ]
   },
   {
+   "id": "asset-bot-library-3d-models",
+   "release": "asset-bot-tranche-2026-10-25",
+   "release_asset": "3d-model-kit.tar.gz",
+   "size_bytes": 42022410,
+   "tags": [
+    "3d",
+    "models",
+    "props",
+    "kits",
+    "animation"
+   ]
+  },
+  {
+   "id": "asset-bot-library-audio",
+   "release": "asset-bot-tranche-2026-10-25",
+   "release_asset": "audio-fx-kit.tar.gz",
+   "size_bytes": 159595402,
+   "tags": [
+    "audio",
+    "sfx",
+    "music"
+   ]
+  },
+  {
+   "id": "asset-bot-library-characters-icons",
+   "release": "asset-bot-tranche-2026-10-25",
+   "release_asset": "character-and-icon-kit.tar.gz",
+   "size_bytes": 236523877,
+   "tags": [
+    "characters",
+    "icons",
+    "ui",
+    "2d",
+    "sprites"
+   ]
+  },
+  {
+   "id": "asset-bot-library-world-building",
+   "release": "asset-bot-tranche-2026-10-25",
+   "release_asset": "world-building-kit.tar.gz",
+   "size_bytes": 502626566,
+   "tags": [
+    "tiles",
+    "tilesets",
+    "backgrounds",
+    "textures",
+    "hdris",
+    "skyboxes",
+    "2d"
+   ]
+  },
+  {
    "id": "asset-bot-lpc",
    "release": "asset-bot-tranche-2026-10-25",
    "release_asset": "lpc-rpg-character-sprites.zip",
