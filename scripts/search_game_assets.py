@@ -15,6 +15,13 @@ def records(scope):
    for rel in json.loads(path.read_text(encoding='utf8'))['releases']:
     for d in rel['assets']:
      yield {'kind':'github_release_file','title':d['name'],'asset_id':rel['tag']+'/'+d['name'],'url':d['url'],'bytes':d['bytes'],'status':'stored_archive_not_necessarily_game_ready'}
+ if scope in ('all','bulk'):
+  path=ROOT/'catalog/bulk-acquisition-assets.jsonl.gz'
+  if path.exists():
+   with gzip.open(path,'rt',encoding='utf8') as f:
+    for line in f:
+     try:yield json.loads(line)
+     except ValueError:continue
  if scope in ('all','images'):
   path=ROOT/'catalog/game-art-search-v2-2026-10-05/assets.jsonl.gz'
   if path.exists():
@@ -25,7 +32,7 @@ def records(scope):
      if isinstance(d,dict):
       yield {'kind':'cleaned_image_index','title':str(d.get('original_path') or d.get('path') or d.get('name') or ''),'asset_id':d.get('asset_id') or d.get('id'),'record':d,'status':'technically_indexed_license_unverified'}
 def main():
- ap=argparse.ArgumentParser();ap.add_argument('query',nargs='+');ap.add_argument('--limit',type=int,default=20);ap.add_argument('--scope',choices=['all','candidate','releases','images'],default='all');a=ap.parse_args()
+ ap=argparse.ArgumentParser();ap.add_argument('query',nargs='+');ap.add_argument('--limit',type=int,default=20);ap.add_argument('--scope',choices=['all','candidate','releases','images','bulk'],default='all');a=ap.parse_args()
  terms=norm(' '.join(a.query)).split();found=[]
  for d in records(a.scope):
   s=norm(json.dumps(d,ensure_ascii=False))
