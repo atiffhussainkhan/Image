@@ -1,0 +1,77 @@
+{
+  "archive_count": 10,
+  "indexed_members": 79337,
+  "streams": [
+    {
+      "stream": "01-characters",
+      "files": 5953,
+      "archive_bytes": 41742958,
+      "errors": 0,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/01-characters.zip"
+    },
+    {
+      "stream": "02-fantasy",
+      "files": 8250,
+      "archive_bytes": 204720993,
+      "errors": 33,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/02-fantasy.zip"
+    },
+    {
+      "stream": "03-scifi",
+      "files": 4246,
+      "archive_bytes": 460999774,
+      "errors": 1,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/03-scifi.zip"
+    },
+    {
+      "stream": "04-ui",
+      "files": 4255,
+      "archive_bytes": 66035927,
+      "errors": 11,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/04-ui.zip"
+    },
+    {
+      "stream": "05-environments",
+      "files": 2390,
+      "archive_bytes": 26567937,
+      "errors": 0,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/05-environments.zip"
+    },
+    {
+      "stream": "06-modern",
+      "files": 2646,
+      "archive_bytes": 11388912,
+      "errors": 0,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/06-modern.zip"
+    },
+    {
+      "stream": "07-vfx",
+      "files": 4019,
+      "archive_bytes": 44848738,
+      "errors": 0,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/07-vfx.zip"
+    },
+    {
+      "stream": "08-tiles",
+      "files": 6678,
+      "archive_bytes": 65365939,
+      "errors": 0,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/08-tiles.zip"
+    },
+    {
+      "stream": "09-pixel-asset-library",
+      "files": 35998,
+      "archive_bytes": 116659259,
+      "errors": 0,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/09-pixel-asset-library.zip"
+    },
+    {
+      "stream": "10-kenney-collection",
+      "files": 4902,
+      "archive_bytes": 26970395,
+      "errors": 0,
+      "download_url": "https://github.com/atiffhussainkhan/Image/releases/download/mega-acquisition-2026-10-25/10-kenney-collection.zip"
+    }
+  ],
+  "quality_scope": "decode check on raster, not engine test; per-pack licence checks outstanding"
+}
