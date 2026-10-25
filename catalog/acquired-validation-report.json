@@ -1,0 +1,559 @@
+{
+  "schema_version": 1,
+  "warning": "Metadata and decoded raster validation, not gameplay/engine certification.",
+  "packs": [
+    {
+      "archive": "oga-kaykit-character-animations.zip",
+      "bytes": 7959257,
+      "sha256": "c9d3fbea492dc6edd0903939369a564c2240b892430bcd99e0aee4876110bb8f",
+      "members": 67,
+      "raster_decoded": 7,
+      "multi_frame_images": 0,
+      "errors": [],
+      "error_count": 0,
+      "status": "integrity_pass_not_engine_tested"
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "5b4a92fc2dac5ae0ca52",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/KayKit Animated Character_v1.2.fbx",
+      "extension": ".fbx",
+      "bytes": 1331036,
+      "keywords": "Animations fbx KayKit Animated Character v1.2.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "91f18348b3eba2ca8e3b",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Attack(1h).fbx",
+      "extension": ".fbx",
+      "bytes": 211900,
+      "keywords": "Animations fbx Single Animations Attack(1h).fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "a50c90361a0c5b5e453b",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/AttackCombo.fbx",
+      "extension": ".fbx",
+      "bytes": 215772,
+      "keywords": "Animations fbx Single Animations AttackCombo.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "b762d4845e4dd7fa4add",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/AttackSpinning.fbx",
+      "extension": ".fbx",
+      "bytes": 210444,
+      "keywords": "Animations fbx Single Animations AttackSpinning.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "14719508cadcaf122e95",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Basepose.fbx",
+      "extension": ".fbx",
+      "bytes": 207740,
+      "keywords": "Animations fbx Single Animations Basepose.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "cee68cf7771dfa69da20",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Block.fbx",
+      "extension": ".fbx",
+      "bytes": 212652,
+      "keywords": "Animations fbx Single Animations Block.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "b953378b336b3e890de8",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Cheer.fbx",
+      "extension": ".fbx",
+      "bytes": 215212,
+      "keywords": "Animations fbx Single Animations Cheer.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "a4e6dc2db6eb875b89f6",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Climbing.fbx",
+      "extension": ".fbx",
+      "bytes": 215420,
+      "keywords": "Animations fbx Single Animations Climbing.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "ee0f54f60b6ba7367712",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Dance.fbx",
+      "extension": ".fbx",
+      "bytes": 216444,
+      "keywords": "Animations fbx Single Animations Dance.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "351c6fc8320f6fc0fe6b",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/DashBack.fbx",
+      "extension": ".fbx",
+      "bytes": 210108,
+      "keywords": "Animations fbx Single Animations DashBack.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "5f01cb2c72e9467f209a",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/DashFront.fbx",
+      "extension": ".fbx",
+      "bytes": 209932,
+      "keywords": "Animations fbx Single Animations DashFront.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "1b3ada6813884b81cfec",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/DashLeft.fbx",
+      "extension": ".fbx",
+      "bytes": 210444,
+      "keywords": "Animations fbx Single Animations DashLeft.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "eb0d592e1028c6f23aa0",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/DashRight.fbx",
+      "extension": ".fbx",
+      "bytes": 210444,
+      "keywords": "Animations fbx Single Animations DashRight.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "0eadd060a4b77bd186b2",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Defeat.fbx",
+      "extension": ".fbx",
+      "bytes": 212124,
+      "keywords": "Animations fbx Single Animations Defeat.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "a3d5096e9260acf2e0c4",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/HeavyAttack.fbx",
+      "extension": ".fbx",
+      "bytes": 215468,
+      "keywords": "Animations fbx Single Animations HeavyAttack.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "1088cc3befeda804a889",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Hop.fbx",
+      "extension": ".fbx",
+      "bytes": 212012,
+      "keywords": "Animations fbx Single Animations Hop.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "697dfd1c89d5b98d9be3",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Idle.fbx",
+      "extension": ".fbx",
+      "bytes": 209404,
+      "keywords": "Animations fbx Single Animations Idle.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "933003201ab401095132",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Interact.fbx",
+      "extension": ".fbx",
+      "bytes": 211900,
+      "keywords": "Animations fbx Single Animations Interact.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "4260c60de4bf1c0750d9",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Jump.fbx",
+      "extension": ".fbx",
+      "bytes": 211708,
+      "keywords": "Animations fbx Single Animations Jump.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "3ea1cd5cb43a38d46237",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/LayingDownIdle.fbx",
+      "extension": ".fbx",
+      "bytes": 209532,
+      "keywords": "Animations fbx Single Animations LayingDownIdle.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "d386e598a0fc0eb4759c",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/PickUp.fbx",
+      "extension": ".fbx",
+      "bytes": 211244,
+      "keywords": "Animations fbx Single Animations PickUp.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "e9dee18bea72fd2eb1e1",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Roll.fbx",
+      "extension": ".fbx",
+      "bytes": 210780,
+      "keywords": "Animations fbx Single Animations Roll.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "7e2e5e4f8c0ff38970b6",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Run.fbx",
+      "extension": ".fbx",
+      "bytes": 213004,
+      "keywords": "Animations fbx Single Animations Run.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "21761e3b7e66bfaa7413",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Shoot(1h).fbx",
+      "extension": ".fbx",
+      "bytes": 211756,
+      "keywords": "Animations fbx Single Animations Shoot(1h).fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "c69b9d09a615a577e78c",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Shoot(2h).fbx",
+      "extension": ".fbx",
+      "bytes": 212572,
+      "keywords": "Animations fbx Single Animations Shoot(2h).fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "d480c3486f04e0a720d1",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Shoot(2h)Bow.fbx",
+      "extension": ".fbx",
+      "bytes": 213084,
+      "keywords": "Animations fbx Single Animations Shoot(2h)Bow.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "00dfcdd3ad8237ba3a0e",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Shooting(1h).fbx",
+      "extension": ".fbx",
+      "bytes": 213468,
+      "keywords": "Animations fbx Single Animations Shooting(1h).fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "46f9d4d0d997fd22dd6a",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Shooting(2h).fbx",
+      "extension": ".fbx",
+      "bytes": 215052,
+      "keywords": "Animations fbx Single Animations Shooting(2h).fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "eb3b9a61687487b7c6fc",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Throw.fbx",
+      "extension": ".fbx",
+      "bytes": 211308,
+      "keywords": "Animations fbx Single Animations Throw.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "d7ef6d7e1e85279c9367",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Walk.fbx",
+      "extension": ".fbx",
+      "bytes": 211068,
+      "keywords": "Animations fbx Single Animations Walk.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "c09a259482d5276a7b20",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/fbx/Single Animations/Wave.fbx",
+      "extension": ".fbx",
+      "bytes": 211340,
+      "keywords": "Animations fbx Single Animations Wave.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "7b78a6b097078b081bec",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Animations/gltf/KayKit_AnimatedCharacter_v1.2.glb",
+      "extension": ".glb",
+      "bytes": 459768,
+      "keywords": "Animations gltf KayKit AnimatedCharacter v1.2.glb",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "1cc24d504a62b48246ed",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "KayKit Brand Resouces/KayKit_logo.png",
+      "extension": ".png",
+      "bytes": 15792,
+      "keywords": "KayKit Brand Resouces KayKit logo.png",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "d8ce79eac2ecaf08154c",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "KayKit Brand Resouces/KayKit_logoVariation_black.png",
+      "extension": ".png",
+      "bytes": 13638,
+      "keywords": "KayKit Brand Resouces KayKit logoVariation black.png",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "589e7f6e596801aea0ba",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "KayKit Brand Resouces/KayKit_logoVariation_red.png",
+      "extension": ".png",
+      "bytes": 15062,
+      "keywords": "KayKit Brand Resouces KayKit logoVariation red.png",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "e53222753953533ca86f",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "KayKit Brand Resouces/KayKit_logoVariation_white.png",
+      "extension": ".png",
+      "bytes": 14895,
+      "keywords": "KayKit Brand Resouces KayKit logoVariation white.png",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "ae1f8d6c825e672b21b1",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "KayKit Brand Resouces/KayKit_logo_black.png",
+      "extension": ".png",
+      "bytes": 12406,
+      "keywords": "KayKit Brand Resouces KayKit logo black.png",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "86f5f202fcb5e404ae82",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "KayKit Brand Resouces/KayKit_logo_red.png",
+      "extension": ".png",
+      "bytes": 13704,
+      "keywords": "KayKit Brand Resouces KayKit logo red.png",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "77c848d36fed5505a0f4",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "KayKit Brand Resouces/KayKit_logo_white.png",
+      "extension": ".png",
+      "bytes": 13490,
+      "keywords": "KayKit Brand Resouces KayKit logo white.png",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "2cd0cdaa3a0f712102a7",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Models/dae/Case.dae",
+      "extension": ".dae",
+      "bytes": 55186,
+      "keywords": "Models dae Case.dae",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "0b4ca0775268ea10ff2b",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Models/dae/Pencil.dae",
+      "extension": ".dae",
+      "bytes": 37328,
+      "keywords": "Models dae Pencil.dae",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "a25358561c2c3c8ec07a",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Models/dae/PrototypePete.dae",
+      "extension": ".dae",
+      "bytes": 641350,
+      "keywords": "Models dae PrototypePete.dae",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "0910ad26464779722b24",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Models/fbx/Case.fbx",
+      "extension": ".fbx",
+      "bytes": 25804,
+      "keywords": "Models fbx Case.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "27c63ee324e843763d03",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Models/fbx/Pencil.fbx",
+      "extension": ".fbx",
+      "bytes": 22428,
+      "keywords": "Models fbx Pencil.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "64fb4b27491f762aa8aa",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Models/fbx/PrototypePete.fbx",
+      "extension": ".fbx",
+      "bytes": 184108,
+      "keywords": "Models fbx PrototypePete.fbx",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "2bbf64f4c4eaf6f5c1bf",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Models/gltf/Case.gltf.glb",
+      "extension": ".glb",
+      "bytes": 17344,
+      "keywords": "Models gltf Case.gltf.glb",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "994020d0c5f9e0b927ff",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Models/gltf/Pencil.gltf.glb",
+      "extension": ".glb",
+      "bytes": 11796,
+      "keywords": "Models gltf Pencil.gltf.glb",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "f2ec4f70f6407e847f9d",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Models/gltf/PrototypePete.gltf",
+      "extension": ".gltf",
+      "bytes": 192049,
+      "keywords": "Models gltf PrototypePete.gltf",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "efdb45d588a0b7d279fa",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Models/obj/Case.obj",
+      "extension": ".obj",
+      "bytes": 30586,
+      "keywords": "Models obj Case.obj",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "5707529a33a55aae1bfd",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Models/obj/Pencil.obj",
+      "extension": ".obj",
+      "bytes": 21109,
+      "keywords": "Models obj Pencil.obj",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "9c82294e8b3ef90410ac",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Models/obj/PrototypePete_armLeft.obj",
+      "extension": ".obj",
+      "bytes": 47695,
+      "keywords": "Models obj PrototypePete armLeft.obj",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "af021ff349939df802c3",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Models/obj/PrototypePete_armRight.obj",
+      "extension": ".obj",
+      "bytes": 23752,
+      "keywords": "Models obj PrototypePete armRight.obj",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "654b8d71eb16c5e92cfc",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Models/obj/PrototypePete_body.obj",
+      "extension": ".obj",
+      "bytes": 44015,
+      "keywords": "Models obj PrototypePete body.obj",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    },
+    {
+      "asset_id": "28e942690c070b09d12a",
+      "pack": "oga-kaykit-character-animations",
+      "archive": "oga-kaykit-character-animations.zip",
+      "path": "Models/obj/PrototypePete_head.obj",
+      "extension": ".obj",
+      "bytes": 238384,
+      "keywords": "Models obj PrototypePete head.obj",
+      "validation": "raster_decoded_or_binary_present_not_engine_tested"
+    }
+  ]
+}
