@@ -1,0 +1,67 @@
+name: Ten-stream open game asset acquisition
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/mega-asset-acquisition.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  acquire:
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        include:
+          - { id: "01-characters", repo: "Tiddybub/2d-assets", folder: "characters" }
+          - { id: "02-fantasy", repo: "Tiddybub/2d-assets", folder: "fantasy" }
+          - { id: "03-scifi", repo: "Tiddybub/2d-assets", folder: "sci-fi" }
+          - { id: "04-ui", repo: "Tiddybub/2d-assets", folder: "misc" }
+          - { id: "05-environments", repo: "Tiddybub/2d-assets", folder: "nature" }
+          - { id: "06-modern", repo: "Tiddybub/2d-assets", folder: "modern-urban" }
+          - { id: "07-vfx", repo: "Tiddybub/2d-assets", folder: "effects" }
+          - { id: "08-tiles", repo: "Tiddybub/2d-assets", folder: "tiles-terrain" }
+          - { id: "09-pixel-asset-library", repo: "SpriteCook/spritecook-free-game-assets", folder: "examples" }
+          - { id: "10-kenney-collection", repo: "eturner58/game-assets", folder: "kenney" }
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install image decoder
+        run: python3 -m pip install Pillow
+      - name: Sparse clone actual source files
+        env:
+          SRC: ${{ matrix.repo }}
+          FOLDER: ${{ matrix.folder }}
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse "https://github.com/$SRC.git" acquisition-source
+          cd acquisition-source
+          git sparse-checkout set "$FOLDER" README.md LICENSE LICENSE.md
+          test -d "$FOLDER"
+          git lfs pull --include="$FOLDER/**" || true
+      - name: Package and verify actual binary content
+        env:
+          STREAM: ${{ matrix.id }}
+          SRC: ${{ matrix.repo }}
+          FOLDER: ${{ matrix.folder }}
+        run: |
+          mkdir -p staging reports
+          python3 scripts/validate_mega_source.py --root "acquisition-source/$FOLDER" --stream "$STREAM" --source "$SRC" --out "reports/$STREAM.json" --zip "staging/$STREAM.zip"
+          test "$(stat -c%s "staging/$STREAM.zip")" -gt 500
+          python3 -c 'import json,os; x=json.load(open("reports/"+os.environ["STREAM"]+".json")); assert x["member_count"]>0'
+      - name: Upload binary and manifest as release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          STREAM: ${{ matrix.id }}
+        run: |
+          TAG="mega-acquisition-2026-10-25"
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" --title "Bulk staging: ten source streams" --notes "Technical validation only. Packs remain staged until per-pack redistribution licence and engine playback is verified." || true
+          fi
+          gh release upload "$TAG" "staging/$STREAM.zip" "reports/$STREAM.json" --clobber
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.id }}-index
+          path: reports/*.json
+          retention-days: 30
