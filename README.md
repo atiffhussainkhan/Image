@@ -1,5 +1,9 @@
 # Image — Game Asset Mega Library
 
+## IMPORTANT: AI / Cursor / Grok / Codex full-library access
+
+**Read [ASSET_ACCESS.md](ASSET_ACCESS.md) first.** A normal Git clone exposes only the ~440 MB tracked tree; the **65 Release attachments totalling ~13.89 GB** are stored separately and are not automatically downloaded or indexed by coding agents. The full release file listing is [catalog/ALL_RELEASE_ASSETS.json](catalog/ALL_RELEASE_ASSETS.json). Download with `python3 scripts/download_release_assets.py --list` or `python3 scripts/download_release_assets.py --all` (requires network and >14 GB spare space, more for extraction). Index and download actual art via the cleaned artwork gallery/search release. Licensing and engine-import limitations remain; do not treat every archived file as ready-to-use art.
+
 A curated library/index of high-quality, licence-clear game-development assets collected for the Mega Repo project.
 
 ## Scope
